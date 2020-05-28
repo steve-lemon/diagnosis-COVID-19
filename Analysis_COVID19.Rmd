@@ -1,0 +1,119 @@
+---
+title: "Analysis of COVID-19 Clinical Trials"
+output: html_notebook
+---
+
+Using [COVID-19](https://www.kaggle.com/nikhilsingh012/covid19-clinical-trials) dataset.
+
+
+**[Team]**
+
+| Name    | Description     |
+|--       |--               |
+| [Steve](https://github.com/steve-lemon)   | .           |
+
+
+**[Notebook Help]**
+
+- *Cmd+Shift+Enter* to run
+- *Cmd+Option+I* to insert code chunk
+- *Cmd+Shift+K* to preview in html (no code run)
+
+
+```{r}
+# this is block of code chunk
+# plot(cars)
+```
+
+--------------------------------------------------------
+## Commons {.tabset}
+
+공용 변수와 함수들을 정의함.
+
+
+### Run Environment
+
+```{r}
+# current directory
+cat('current-directory =', getwd(), '\n')
+# current time in local
+cat('current-timestamp =', format(Sys.time(), "%a %b %d %X %Y"), '\n')
+```
+
+
+### ICD 코드 구하기
+
+```{r}
+# Fetching ICD Code Information from REST APIs
+library(jsonlite)
+mySearchICD <- function(code) {
+  req <- httr::POST("http://www.koicd.kr/2016/easyFind/search.json",
+            httr::add_headers(
+              # "Authorization" = paste("Basic", gsub("\n", "", secret)),
+              "Content-Type" = "application/x-www-form-urlencoded; charset=UTF-8",
+              "Cookie" = "JSESSIONID=B893344D438E4CAE129DAA461AA42771; div_popup=done"
+            ),
+            body = paste("searchType=01&code1=", code, sep='')
+  );
+  json <- httr::content(req, as = "text")
+  data <- fromJSON(json)
+  # print (length(data$list))
+  if (length(data$list) <= 0) return(list(code_title='',eng_text='',kor_text=''))
+  dd = data$list[,c('code_title', 'eng_text', 'kor_text')]
+  return(dd[dd$code_title == code,])
+}
+# sample for J90
+mySearchICD('J90')
+```
+
+
+## 0. Configuration
+
+```{r}
+# work and data dir
+WORK_DIR = file.path(getwd())
+DATA_DIR = file.path(WORK_DIR, 'data' , '')  # to keep the last path-separator.
+cat(c('WORK_DIR=', WORK_DIR), '\n', c('DATA_DIR=', DATA_DIR), sep='', append = T)
+```
+
+
+## 1. Main Data Set {.tabset}
+
+Read main data which is origin from [COVID-19](https://www.kaggle.com/nikhilsingh012/covid19-clinical-trials) dataset.
+
+
+### Diagnoses - Combined
+
+- loading `Diagnoses-Combined200411.csv`
+
+```{r}
+DiagCombinedByCountry <- read.table(paste0(DATA_DIR, 'Diagnoses-CombinedByCountry200411.csv'), header = TRUE, sep=',', stringsAsFactors=F)
+head(DiagCombinedByCountry)
+```
+
+### Diagnoses - CombinedByCountry
+
+- loading `Diagnoses-CombinedByCountry200411.csv`
+
+```{r}
+DiagCombined <- read.table(paste0(DATA_DIR, 'Diagnoses-Combined200411.csv'), header = TRUE, sep=',', stringsAsFactors=F)
+head(DiagCombined)
+```
+
+
+## 2. Pre-Processing
+
+
+
+## 3. Pre-Processing
+
+
+
+
+
+
+
+
+
+
+
