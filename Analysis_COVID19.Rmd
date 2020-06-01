@@ -46,7 +46,7 @@ cat('current-timestamp =', format(Sys.time(), "%a %b %d %X %Y"), '\n')
 ```{r}
 # Fetching ICD Code Information from REST APIs
 library(jsonlite)
-mySearchICD <- function(code) {
+mySearchICD <- function(code, all=T) {
   req <- httr::POST("http://www.koicd.kr/2016/easyFind/search.json",
             httr::add_headers(
               # "Authorization" = paste("Basic", gsub("\n", "", secret)),
@@ -60,11 +60,30 @@ mySearchICD <- function(code) {
   # print (length(data$list))
   if (length(data$list) <= 0) return(list(code_title='',eng_text='',kor_text=''))
   dd = data$list[,c('code_title', 'eng_text', 'kor_text')]
+  if (all) return(dd)
   return(dd[dd$code_title == code,])
 }
-# sample for J90
-mySearchICD('J90')
+# sample for J20
+mySearchICD('J20')
 ```
+
+
+### ICD 코드 정규화
+
+```{r}
+# get Major Code of ICD
+myMajorICD <- function(x='J20.1'){
+  # install.packages("stringr")
+  library(stringr)
+  Y = str_match(x,'^([A-Z][0-9]{2,})\\.?[0-9]*$')
+  return(Y[,2])
+}
+assertthat::are_equal(myNormICD('J20.1'), 'J20')
+stopifnot(myMajorICD('J20.1') == 'J20')
+stopifnot(is.na(myMajorICD('JJ20')))
+stopifnot(is.na(myMajorICD('')))
+```
+ 
 
 
 ## 0. Configuration
@@ -101,11 +120,95 @@ head(DiagCombined)
 ```
 
 
-## 2. Pre-Processing
+## 2. Pre-Processing {.tabset}
+
+Manipulating Origin Data
+
+### ICD Code Table
+
+```{r}
+DiagCombined[,c('icd_code','icd_version')]
+# combine two data
+myIcdTable = merge(DiagCombined[,c('icd_code','icd_version')], DiagCombinedByCountry[,c('icd_code','icd_version')])
+head(myIcdTable[20:30,])
+```
+
+
+### ICD Lookup Set
+
+```{r}
+# load LookUp Table by CODE -> TEXT{ENG, KOR}
+myLoadIcdLUT <- function(max_nrow=5){
+  MY_FILE = 'my-icd-lookup.cached.csv'
+  # STEP.0 `my-icd-lookup.cached.csv` 파일이 있으면 무시.
+  f <- list.files(DATA_DIR, MY_FILE)
+  if (length(f) > 0){
+    dt <- read.table(paste0(DATA_DIR, MY_FILE), header = T, sep=',', stringsAsFactors=F)
+    return(dt)
+  }
+
+  #dplyr 패키지 for distinct(데이터, 컬럼)
+  library(dplyr)
+  # STEP.1 icd_code 중복 걸려냄
+  myIcdLUT <- distinct(myIcdTable)
+  cols <- colnames(myIcdLUT)
+  cat('cols =', cols, '\n')
+
+  # add columns of characters...
+  my2 <- cbind(myIcdLUT, list(eng_text = '', kor_text = ''))
+  my2 <- transform(my2, eng_text = as.character(eng_text), kor_text = as.character(kor_text))  # to character.
+
+  # STEP.2 pre-processing to detect major ICD code ('J20.10' -> 'J20')
+  process_row = function(row){
+    row = row[1,]
+    row[['mjr_code']] = myMajorICD(row[['icd_code']])
+    return(row)
+  }
+  # STEP.2-1 using lapply
+  my3 <- lapply(1:nrow(my2), function(r_num) { process_row(my2[r_num, ]) })
+  my4 <- do.call(rbind, my3)
+  #str(my4)                          # 3624 obs. of  5 variables: icd_code, icd_version, eng_text, kor_text, mjr_code
+
+  # STEP.2-2 get unique list of major-code
+  my5 = distinct(my4, mjr_code)
+  str(my5)                          # 985 obs. of  1 variable: mjr_code
+
+  # STEP.3 fetch and stack up code list
+  my5_len = ifelse(max_nrow > 0, max_nrow, nrow(my5))
+  my6 <- vector(mode = "list", length = my5_len)
+  process_my5 <- function(mjr_code){
+    # print(mjr_code)
+    if (is.na(mjr_code)) return(data.frame(code_title=c(),eng_text=c(),kor_text=c()))
+    # res <- data.frame(code_title=c('Z99', mjr_code),eng_text=c('ZZZZ', '.'),kor_text=c('9999', 'z'))  # as dummy data
+    res <- mySearchICD(mjr_code)
+    Sys.sleep(2)
+    return(res)
+  }
+  for(row_x in 1:my5_len){
+    mjr_code = my5[row_x, 'mjr_code']
+    row_y <- process_my5(mjr_code)
+    my6[[row_x]] <- row_y
+  }
+  my7 <- do.call(rbind, my6)
+
+  # STEP.4 save into cached file.
+  write.csv(my7, file = paste0(DATA_DIR, MY_FILE), row.names = FALSE)
+  
+  # FINAL. returns
+  ret <- my7
+  return(ret)
+}
+# load ICD-LUT table
+myLoadIcdLUT(max_nrow = 0)
+```
+
+
+### Embedding Names
 
 
 
-## 3. Pre-Processing
+
+## 3. Processing
 
 
 
