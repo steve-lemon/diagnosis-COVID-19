@@ -1,0 +1,11 @@
+,icd_code,num_patients,eng_text,kor_text,symptom
+0,Z29.0,1352,Isolation,격리,||코의 기형 동반||애착 상대와 분리 거부||어지러움||시력 감소||불안||수면장애||사시||가슴 두근거림||눈 사이가 멀어보임
+1,J12.8,1229,Other viral pneumonia,기타 바이러스폐렴,
+2,J96.0,1119,Acute respiratory failure,급성 호흡부전,
+3,R05,937,Cough,기침,||기침||코막힘
+4,I10,830,Essential(primary) hypertension,본태성(원발성) 고혈압,
+5,R50.9,812,"Fever, unspecified",상세불명의 열,
+6,U07.1,796,Emergency use of U07.1,U07.1의 응급사용,
+7,J06.9,753,"Acute upper respiratory infection, unspecified",상세불명의 급성 상기도감염,
+8,R68.8,640,Other specified general symptoms and signs,기타 명시된 전신 증상 및 징후,
+9,J12.8,609,Other viral pneumonia,기타 바이러스폐렴,
