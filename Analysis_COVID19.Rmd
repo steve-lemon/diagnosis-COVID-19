@@ -21,8 +21,10 @@ Using [COVID-19](https://www.kaggle.com/nikhilsingh012/covid19-clinical-trials) 
 
 
 ```{r}
-# this is block of code chunk
-# plot(cars)
+#! below are the required packages.
+# install.packages("curl")
+# install.packages("httr")
+# install.packages('assertthat')
 ```
 
 --------------------------------------------------------
@@ -67,8 +69,11 @@ mySearchICD <- function(code, all=T) {
 mySearchICD('J20')
 ```
 
-### ICD 분류처리(대/중/소)  ICD Code classification 2020 06 08 CSM
-### TESTING commit to github
+### ICD 분류처리(대/중/소) 
+
+- ICD Code classification 2020 06 08 CSM
+- TESTING commit to github
+
 ```{r}
 loadICDCodeFromWeb <- function(code, all=T) {
   req <- httr::POST("http://www.koicd.kr/2016/easyFind/search.json",
@@ -90,10 +95,6 @@ loadICDCodeFromWeb <- function(code, all=T) {
 
 # sample for J20
 loadICDCodeFromWeb('J20')
-
-
-
-
 ```
 
 ### ICD 코드 정규화
@@ -112,6 +113,57 @@ stopifnot(is.na(myMajorICD('JJ20')))
 stopifnot(is.na(myMajorICD('')))
 ```
  
+
+### BioBERT NERs
+
+- using [BERN](https://bern.korea.ac.kr/)
+
+```{r}
+#! search NER(Named Entity Recognition) via Neural BioBERT Service
+mySearchNER <- function(txt, dummy=F) {
+  # load dummy for test
+  if (dummy){
+    json = "{\"project\":\"BERN\",\"sourcedb\":\"\",\"sourceid\":\"b39dba2f6744bb5cf68cf8d0137e11c1c3dc5f57e1cd38611f4a4b3b\",\"text\":\"Acute respiratory failure, type II [hypercapnic]\",\"denotations\":[{\"id\":[\"MESH:D000208\",\"BERN:259462001\"],\"span\":{\"begin\":0,\"end\":5},\"obj\":\"disease\"},{\"id\":[\"MESH:D012131\",\"BERN:106908201\"],\"span\":{\"begin\":6,\"end\":25},\"obj\":\"disease\"}],\"timestamp\":\"Tue Jun 16 14:32:57 +0000 2020\",\"logits\":{\"disease\":[[{\"start\":0,\"end\":5,\"id\":\"MESH:D000208\\tBERN:259462001\"},0.962023913860321],[{\"start\":6,\"end\":25,\"id\":\"MESH:D012131\\tBERN:106908201\"},0.9626538753509521]],\"gene\":[],\"drug\":[],\"species\":[]}}"
+    data <- fromJSON(json)
+    return(data)
+  }
+
+  # "https://bern.korea.ac.kr/senddata",
+  httr::set_config(httr::config(ssl_verifypeer = 0L))
+  req <- httr::POST('https://bern.korea.ac.kr/plain',
+            httr::add_headers(
+              "Content-Type" = "application/x-www-form-urlencoded; charset=UTF-8",
+              "Cookie" = "connect.sid=s%3ANPqwNBa_UTo2leh20iJLS0GJjzLA_f6e.yn1Dj3SEJ4mQqWEu2IXw8hYYPue6PHwknzqfsGShPwc"
+            ),
+            body = list("sample_text" = txt, "req_type" = "text"),
+            encode = 'form'
+  )
+  json <- httr::content(req, as = "text")
+  print(json)
+  data <- fromJSON(json)
+  return(data)
+}
+#mySearchNER('Acute respiratory failure, type II [hypercapnic]', dummy = T)
+
+#! detect list of NER
+myParseNER <- function(txt, dummy=F) {
+  data = mySearchNER(txt, dummy)
+  txt = data$text
+  ret = list()
+  # print(txt)
+  for(d in data$logits$disease){
+    # print(paste0(list(d[[1]]$start, d[[1]]$end), '-'))
+    dis = tolower(substr(txt, d[[1]]$start+1, d[[1]]$end))
+    ret <- append(ret, dis)
+  }
+  return(ret)
+}
+
+#! test case with dummy.
+dum1 = myParseNER('Acute respiratory failure, type II [hypercapnic]', dummy = T)
+assertthat::are_equal(dum1[[1]], 'acute')
+assertthat::are_equal(dum1[[2]], 'respiratory failure')
+```
 
 
 ## 0. Configuration
