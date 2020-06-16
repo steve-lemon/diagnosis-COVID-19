@@ -166,7 +166,7 @@ assertthat::are_equal(dum1[[1]], 'acute')
 assertthat::are_equal(dum1[[2]], 'respiratory failure')
 ```
 
-### ICD
+### ICD Text
 
 
 ```{r}
@@ -225,6 +225,25 @@ myFetchICDTextByTable(dd, max_nrow = 1)
 ```
 
 
+### Load/Save CSV
+
+```{r}
+#! save dataframe to csv file.
+mySaveToCSV <- function(df, name, dir = DATA_DIR, safe = F){
+  # STEP.0 check if file exists..
+  f <- list.files(dir, name)
+  if (safe && length(f) > 0){
+    fname <- paste0(dir, name)
+    cat('load via file:', fname, '\n')
+    dt <- read.table(fname, header = T, sep=',', stringsAsFactors=F)
+    return(dt)
+  }
+  ret = write.csv(df, file = paste0(dir, name), row.names = FALSE)
+  return(ret)
+}
+```
+
+
 
 ## 0. Configuration
 
@@ -264,6 +283,7 @@ head(DiagCombined)
 
 Manipulating Origin Data
 
+
 ### ICD Code Table
 
 ```{r}
@@ -301,9 +321,87 @@ head(myIcdLUT[20:30,])
 ```
 
 
-### Embedding Names
+### Embedding ICD Names
+
+- add `eng_text`, `kor_text` by `icd_code`.
+
+```{r}
+#! only if num_patients > 0
+data = DiagCombined[DiagCombined$num_patients > 0, c('icd_code', 'num_patients')]
+assertthat::are_equal(colnames(data), c('icd_code', 'num_patients'))
+
+# find eng and kor
+my_find_text_by_code <- function(code){
+  f = myIcdLUT[myIcdLUT$code_title == code,]
+  r = list('eng' = '', 'kor' = '', 'icd' = code)
+  if (nrow(f) > 0){
+    r$eng = f$eng_text[1]
+    r$kor = f$kor_text[1]
+  }
+  return(r)
+}
+dm2 = my_find_text_by_code('A04.4')
+assertthat::are_equal(dm2$icd, 'A04.4')
+assertthat::are_equal(dm2$eng, 'Other intestinal Escherichia coli infection')
+assertthat::are_equal(dm2$kor, '기타 장대장균감염')
+
+#! merge 'icd_code' and 'eng_text'
+myMergeICDText <- function(df, use_major = T){
+  # STEP.1 add columns
+  my2 <- cbind(df, list(icd_eng = '', icd_kor = ''))
+  if(use_major){
+    my2 <- cbind(df, list(mjr_code = '', mjr_eng='', mjr_kor=''))
+  }
+  process_row <- function(row){
+    row = row[1,]
+    txt = my_find_text_by_code(row[['icd_code']])
+    row[['icd_eng']] = txt$eng
+    row[['icd_kor']] = txt$kor
+    if (use_major) {
+      row[['mjr_code']] = myMajorICD(row[['icd_code']])
+      txt = my_find_text_by_code(row[['mjr_code']])
+      row[['mjr_eng']] = txt$eng
+      row[['mjr_kor']] = txt$kor
+    }
+    return(row)
+  }
+  # STEP.2 process each rows
+  my3 <- lapply(1:nrow(my2), function(r_num) { process_row(my2[r_num, ]) })
+  my4 <- do.call(rbind, my3)
+  return(my4)
+}
+
+#! split icd_code -> 'major' & 'code'
+DiagPatients <- myMergeICDText(data)
+head(DiagPatients)
+```
 
 
+### Group by Major ICD
+
+- sub-sum patients by major icd-code.
+
+
+```{r}
+#! group by column
+my_group_by_mjr_code <- function(df){
+  #library(dplyr)
+  #ret <- df %>% group_by(mjr_code) %>% summarise(num_patients = sum(num_patients))
+  #return(ret)
+  df2 <- aggregate(num_patients ~ mjr_code, df, sum)
+  return(df2)
+}
+
+#! store
+data = my_group_by_mjr_code(DiagPatients)
+assertthat::are_equal(data[data$mjr_code == 'A09', c('num_patients')], 19+13)  # 32 = 19(A09.9) + 13(A09.0)
+colnames(data) = c('icd_code', 'sum')
+DiagMajorICD <- myMergeICDText(data, use_major = F)
+#! load (or save to file)
+DiagMajorICD <- mySaveToCSV(DiagMajorICD, 'my-icd-major-patients.csv', safe = T)
+# show table
+DiagMajorICD
+```
 
 
 ## 3. Processing
