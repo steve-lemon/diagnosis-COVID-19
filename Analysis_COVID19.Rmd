@@ -25,6 +25,7 @@ Using [COVID-19](https://www.kaggle.com/nikhilsingh012/covid19-clinical-trials) 
 # install.packages("curl")
 # install.packages("httr")
 # install.packages('assertthat')
+# install.packages('dplyr')
 ```
 
 --------------------------------------------------------
@@ -116,7 +117,7 @@ stopifnot(is.na(myMajorICD('')))
 
 ### BioBERT NERs
 
-- using [BERN](https://bern.korea.ac.kr/)
+- using [BERN](https://bern.korea.ac.kr/) based on ([BioBERT (Lee et al., 2019)](https://arxiv.org/abs/1901.08746))
 
 ```{r}
 #! search NER(Named Entity Recognition) via Neural BioBERT Service
@@ -165,6 +166,65 @@ assertthat::are_equal(dum1[[1]], 'acute')
 assertthat::are_equal(dum1[[2]], 'respiratory failure')
 ```
 
+### ICD
+
+
+```{r}
+#! fetch the icd text with table
+myFetchICDTextByTable <- function(icd_table, max_nrow=0){
+  #dplyr 패키지 for distinct(데이터, 컬럼)
+  library(dplyr)
+  # STEP.1 icd_code 중복 걸려냄
+  myIcdLUT <- distinct(icd_table)
+  cols <- colnames(myIcdLUT)
+  cat('cols =', cols, '\n')
+
+  # add columns of characters...
+  my2 <- cbind(myIcdLUT, list(eng_text = '', kor_text = ''))
+  my2 <- transform(my2, eng_text = as.character(eng_text), kor_text = as.character(kor_text))  # to character.
+
+  # STEP.2 pre-processing to detect major ICD code ('J20.10' -> 'J20')
+  process_row = function(row){
+    row = row[1,]
+    row[['mjr_code']] = myMajorICD(row[['icd_code']])
+    return(row)
+  }
+  # STEP.2-1 using lapply
+  my3 <- lapply(1:nrow(my2), function(r_num) { process_row(my2[r_num, ]) })
+  my4 <- do.call(rbind, my3)
+  #str(my4)                          # 3624 obs. of  5 variables: icd_code, icd_version, eng_text, kor_text, mjr_code
+
+  # STEP.2-2 get unique list of major-code
+  my5 = distinct(my4, mjr_code)
+  str(my5)                          # 985 obs. of  1 variable: mjr_code
+
+  # STEP.3 fetch and stack up code list
+  my5_len = ifelse(max_nrow > 0, max_nrow, nrow(my5))
+  my6 <- vector(mode = "list", length = my5_len)
+  process_my5 <- function(mjr_code){
+    # print(mjr_code)
+    if (is.na(mjr_code)) return(data.frame(code_title=c(),eng_text=c(),kor_text=c()))
+    # res <- data.frame(code_title=c('Z99', mjr_code),eng_text=c('ZZZZ', '.'),kor_text=c('9999', 'z'))  # as dummy data
+    res <- mySearchICD(mjr_code)
+    Sys.sleep(2)
+    return(res)
+  }
+  for(row_x in 1:my5_len){
+    mjr_code = my5[row_x, 'mjr_code']
+    row_y <- process_my5(mjr_code)
+    my6[[row_x]] <- row_y
+  }
+  my7 <- do.call(rbind, my6)
+  return(my7)  
+}
+#myFetchICDTextByTable(list())
+dd1 = data.frame(list('icd_code'='J20', 'icd_version'=10), stringsAsFactors = FALSE)
+dd1[nrow(dd1) + 1,] = list('icd_code'='J20.1', 'icd_version'=10)
+dd1[nrow(dd1) + 1,] = list('icd_code'='J20', 'icd_version'=10)
+myFetchICDTextByTable(dd, max_nrow = 1)
+```
+
+
 
 ## 0. Configuration
 
@@ -209,7 +269,7 @@ Manipulating Origin Data
 ```{r}
 DiagCombined[,c('icd_code','icd_version')]
 # combine two data
-myIcdTable = merge(DiagCombined[,c('icd_code','icd_version')], DiagCombinedByCountry[,c('icd_code','icd_version')])
+myIcdTable <- merge(DiagCombined[,c('icd_code','icd_version')], DiagCombinedByCountry[,c('icd_code','icd_version')])
 head(myIcdTable[20:30,])
 ```
 
@@ -218,7 +278,7 @@ head(myIcdTable[20:30,])
 
 ```{r}
 # load LookUp Table by CODE -> TEXT{ENG, KOR}
-myLoadIcdLUT <- function(max_nrow=5){
+myLoadIcdLUT <- function(table, max_nrow=5){
   MY_FILE = 'my-icd-lookup.cached.csv'
   # STEP.0 `my-icd-lookup.cached.csv` 파일이 있으면 무시.
   f <- list.files(DATA_DIR, MY_FILE)
@@ -227,59 +287,17 @@ myLoadIcdLUT <- function(max_nrow=5){
     return(dt)
   }
 
-  #dplyr 패키지 for distinct(데이터, 컬럼)
-  library(dplyr)
-  # STEP.1 icd_code 중복 걸려냄
-  myIcdLUT <- distinct(myIcdTable)
-  cols <- colnames(myIcdLUT)
-  cat('cols =', cols, '\n')
-
-  # add columns of characters...
-  my2 <- cbind(myIcdLUT, list(eng_text = '', kor_text = ''))
-  my2 <- transform(my2, eng_text = as.character(eng_text), kor_text = as.character(kor_text))  # to character.
-
-  # STEP.2 pre-processing to detect major ICD code ('J20.10' -> 'J20')
-  process_row = function(row){
-    row = row[1,]
-    row[['mjr_code']] = myMajorICD(row[['icd_code']])
-    return(row)
-  }
-  # STEP.2-1 using lapply
-  my3 <- lapply(1:nrow(my2), function(r_num) { process_row(my2[r_num, ]) })
-  my4 <- do.call(rbind, my3)
-  #str(my4)                          # 3624 obs. of  5 variables: icd_code, icd_version, eng_text, kor_text, mjr_code
-
-  # STEP.2-2 get unique list of major-code
-  my5 = distinct(my4, mjr_code)
-  str(my5)                          # 985 obs. of  1 variable: mjr_code
-
-  # STEP.3 fetch and stack up code list
-  my5_len = ifelse(max_nrow > 0, max_nrow, nrow(my5))
-  my6 <- vector(mode = "list", length = my5_len)
-  process_my5 <- function(mjr_code){
-    # print(mjr_code)
-    if (is.na(mjr_code)) return(data.frame(code_title=c(),eng_text=c(),kor_text=c()))
-    # res <- data.frame(code_title=c('Z99', mjr_code),eng_text=c('ZZZZ', '.'),kor_text=c('9999', 'z'))  # as dummy data
-    res <- mySearchICD(mjr_code)
-    Sys.sleep(2)
-    return(res)
-  }
-  for(row_x in 1:my5_len){
-    mjr_code = my5[row_x, 'mjr_code']
-    row_y <- process_my5(mjr_code)
-    my6[[row_x]] <- row_y
-  }
-  my7 <- do.call(rbind, my6)
-
-  # STEP.4 save into cached file.
-  write.csv(my7, file = paste0(DATA_DIR, MY_FILE), row.names = FALSE)
+  # STEP.2 fetch search-list, and save as cached.
+  ret <- myFetchICDTextByTable(table, max_nrow)
+  write.csv(ret, file = paste0(DATA_DIR, MY_FILE), row.names = FALSE)
   
   # FINAL. returns
-  ret <- my7
   return(ret)
 }
-# load ICD-LUT table
-myLoadIcdLUT(max_nrow = 0)
+
+# load ICD-LUT table (cols='code_title', 'eng_text', 'kor_text')
+myIcdLUT <- myLoadIcdLUT(myIcdTable, max_nrow = 0)
+head(myIcdLUT[20:30,])
 ```
 
 
