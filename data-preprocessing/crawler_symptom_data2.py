@@ -23,10 +23,10 @@ for index, row in merge_data.iterrows():
 
 	icd_kor_list = list()
 	icd_kor_list.append(str(row['icd_kor']))
-	icd_kor_txt = str(row['icd_kor']).split()  # type: List[str]
-	print(icd_kor_txt)
-	for word in icd_kor_txt:
-		icd_kor_list.append(word)
+	# icd_kor_txt = str(row['icd_kor']).split()  # type: List[str]
+	# print(icd_kor_txt)
+	# for word in icd_kor_txt:
+	# 	icd_kor_list.append(word)
 
 	# print (icd_kor_list)
 	# print ("---------------")

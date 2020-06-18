@@ -6,7 +6,3 @@ def isIgnore(str):
 		return True
 	else:
 		return False
-
-print(isIgnore("기타"))
-print(isIgnore("및"))
-print(isIgnore("아님"))
