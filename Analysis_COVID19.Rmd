@@ -407,6 +407,81 @@ DiagMajorICD
 ## 3. Processing
 
 
+```{r}
+# reall the final data-set.
+all0 = read.table(paste0(DATA_DIR, '../data-preprocessing/data2/my-icd-major-patients-symptom-group.csv'), header = T, sep=',', stringsAsFactors=F,  encoding = "UTF-8")
+head(all0)
+# all0$icd_code = factor(all0$icd_code)    # as factor to `group_name`
+# all0$group_name = factor(all0$group_name)    # as factor to `group_name`
+summary(all0)
+#! mySplitColumn() - split column text, and build matrix..
+mySplitColumn <- function(df, cname = 'symptom', sum = 'sum') {
+  # step.1 split all
+  pt <- data.frame(name=character(), count=double())
+  for(i in 1:nrow(df)){
+    t0 <- ifelse(sum == '', 1, df[i, sum])
+    s0 <- df[i, cname]
+    ss <- strsplit(s0, split = '||', fixed = T)
+    ss <- unlist(ss)
+    for(nm in ss){
+      f = pt[pt$name == nm,]
+      if(nrow(f) > 0){
+        pt[pt$name == nm, 'count'] = pt[pt$name == nm, 'count'] + t0
+      } else {
+        de <- list(name = nm, count = t0)
+        pt <- rbind(pt, de, stringsAsFactors = FALSE)
+      }
+    }
+  }
+  # step.2 add columns to df.
+  dl <- list()
+  for(nm in pt[['name']]){
+    dl[[nm]] = 0
+  }
+  # expand column to df
+  df2 <- cbind(df, dl)
+  
+  # step.3 merge all
+  for(i in 1:nrow(df2)){
+    t0 <- ifelse(sum == '', 1, df[i, sum])
+    s0 <- df[i, cname]
+    ss <- strsplit(s0, split = '||', fixed = T)
+    ss <- unlist(ss)
+    for(nm in ss){
+      df2[i, nm] = t0
+    }
+  }
+
+  # returns
+  return(df2)
+}
+mySplitColumn(all0[1:5,])
+all0[1, 'symptom']
+length(c(1,2))
+all0[1:5,]
+```
+
+```{r}
+# group by `group_name`
+all2 <- aggregate(sum ~ group_name, all0, sum)
+summary(all2)
+plot(all2)
+```
+
+```{r}
+# text mining
+if(!require('tm')) install.packages('tm', repos = 'http://cran.us.r-project.org')
+library('tm')
+all_corpus <- Corpus(VectorSource(all0$group_name))
+all0$group_name[1]
+
+## Word-Cloud
+# TODO - see https://statkclee.github.io/ml/ml-wordcloud.html
+if(!require('wordcloud')) install.packages('wordcloud', repos = 'http://cran.us.r-project.org')
+library('wordcloud')
+wordcloud(all_corpus, min.freq = 5, random.order = FALSE, family="AppleGothic")  # hangule problem.
+#wordcloud(c('a','b'), c(1,2), min.freq = 5, random.order = FALSE, vfont=c("sans serif","plain"))
+```
 
 
 
