@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
-import ignore_kor_list_fuc as ignore
+import common_fuc as ignore
 
 merge_data = pd.read_csv('./data2/my-icd-major-patients.csv')
 icd_group = pd.read_csv('./data2/icd_group.csv')
