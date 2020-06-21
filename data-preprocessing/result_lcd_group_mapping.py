@@ -27,11 +27,6 @@ print(groupNameList)
 merge_data['group_name'] = groupNameList
 merge_data.to_csv('./data2/my-icd-major-patients-group.csv', index=True, encoding="UTF-8")
 
-grouped = merge_data['sum'].groupby(merge_data['group_name'], axis=1)
-
-print(grouped.sum())
-
-result = grouped.sum()
 
 
 
