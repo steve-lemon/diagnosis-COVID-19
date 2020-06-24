@@ -1,0 +1,881 @@
+,icd_code,num_patients,eng_text,kor_text
+0,Z29.0,1352,Isolation,격리
+1,J12.8,1229,Other viral pneumonia,기타 바이러스폐렴
+2,J96.0,1119,Acute respiratory failure,급성 호흡부전
+3,R05,937,Cough,기침
+4,I10,830,Essential(primary) hypertension,본태성(원발성) 고혈압
+5,R50.9,812,"Fever, unspecified",상세불명의 열
+6,U07.1,796,Emergency use of U07.1,U07.1의 응급사용
+7,J06.9,753,"Acute upper respiratory infection, unspecified",상세불명의 급성 상기도감염
+8,R68.8,640,Other specified general symptoms and signs,기타 명시된 전신 증상 및 징후
+9,J12.8,609,Other viral pneumonia,기타 바이러스폐렴
+10,J96.0,545,Acute respiratory failure,급성 호흡부전
+11,B97.2,528,Coronavirus as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 코로나바이러스
+12,J96.9,499,"Respiratory failure, unspecified",상세불명의 호흡부전
+13,J96.9,499,"Respiratory failure, unspecified",상세불명의 호흡부전
+14,J96.2,488,,
+15,J96.2,488,,
+16,Z20.8,425,Contact with and exposure to other communicable diseases,기타 전염성 질환에 접촉 및 노출
+17,J80,391,Adult respiratory distress syndrome,성인호흡곤란증후군
+18,E11.9,375,"Type 2 diabetes mellitus, without complications",합병증을 동반하지 않은 2형 당뇨병
+19,J18.9,374,"Pneumonia, unspecified",상세불명의 폐렴
+20,R06.0,374,Dyspnoea,호흡곤란
+21,R06.0,337,Dyspnoea,호흡곤란
+22,J12.8,294,Other viral pneumonia,기타 바이러스폐렴
+23,J96.0,272,Acute respiratory failure,급성 호흡부전
+24,R53,230,Malaise and fatigue,병감 및 피로
+25,B34.2,211,"Coronavirus infection, unspecified site",상세불명 부위의 코로나바이러스감염
+26,N17.9,211,"Acute renal failure, unspecified",상세불명의 급성 신부전
+27,J12.9,208,"Viral pneumonia, unspecified",상세불명의 바이러스폐렴
+28,R09.0,170,Asphyxia,질식
+29,U07.2,164,Emergency use of U07.2,U07.2의 응급사용
+30,B34.9,153,"Viral infection, unspecified",상세불명의 바이러스감염
+31,Z71.1,149,Person with feared complaint in whom no diagnosis is made,진단은 받지 않았으나 공포를 호소하는 사람
+32,E66.0,148,Obesity due to excess calories,과잉칼로리에 의한 비만
+33,E78.5,130,"Hyperlipidaemia, unspecified",상세불명의 고지질혈증
+34,R96.1,126,"Death occurring less than 24 hours from onset of symptoms, not otherwise explained",증상의 발생으로부터 24시간 이내에 일어난 달리 설명되지 않는 사망
+35,Z51.5,126,Palliative care,완화의료
+36,Z71.8,126,Other specified counselling,기타 명시된 상담
+37,I48.0,116,Paroxysmal atrial fibrillation,발작성 심방세동
+38,J22,116,Unspecified acute lower respiratory infection,상세불명의 급성 하기도감염
+39,E87.1,115,Hypo-osmolality and hyponatraemia,저오스몰랄농도 및 저나트륨혈증
+40,E66.9,104,"Obesity, unspecified",상세불명의 비만
+41,R65.0,95,Systemic Inflammatory Response Syndrome of infectious origin without organ failure,기관의 부전을 동반하지 않은 감염성 기원의 전신염증반응증후군
+42,R65.1,93,Systemic Inflammatory Response Syndrome of infectious origin with organ failure,기관의 부전을 동반한 감염성 기원의 전신염증반응증후군
+43,E03.9,90,"Hypothyroidism, unspecified",상세불명의 갑상선기능저하증
+44,R91.8,90,,
+45,Z50.1,90,Other physical therapy,기타 물리요법
+46,Z74.1,89,Need for assistance with personal care,개인간호의 지원 필요
+47,E87.6,88,Hypokalaemia,저칼륨혈증
+48,Z75.1,86,Person awaiting admission to adequate facility elsewhere,다른 곳의 적당한 시설에 입원을 기다리는 사람
+49,N18.3,85,"Chronic kidney disease, stage 3",만성 신장병(3기)
+50,E43,84,Unspecified severe protein-energy malnutrition,상세불명의 중증 단백질-에너지영양실조
+51,E44.0,81,Moderate protein-energy malnutrition,중등도 단백질-에너지영양실조
+52,I25.9,80,"Chronic ischaemic heart disease, unspecified",상세불명의 만성 허혈심장병
+53,R19.7,80,,
+54,R41.0,79,"Disorientation, unspecified",상세불명의 지남력장애
+55,J15.9,77,"Bacterial pneumonia, unspecified",상세불명의 세균성 폐렴
+56,R57.2,76,Septic shock,패혈성 쇼크
+57,G47.3,75,Sleep apnoea,수면무호흡
+58,I48.2,74,Chronic atrial fibrillation,만성 심방세동
+59,A41.9,73,"Sepsis, unspecified",상세불명의 패혈증
+60,R29.6,73,"Tendency to fall, NEC",달리 분류되지 않은 넘어지는 경향
+61,Z92.1,71,Personal history of long-term (current) use of anticoagulants,항응고제의 오랜 (현존) 사용의 개인력
+62,Z79.8,70,,
+63,N18.9,68,"Chronic kidney disease, unspecified",상세불명의 만성 신장병
+64,Z99.1,68,Dependence on respirator,호흡기에 의존
+65,J45.9,66,"Asthma, unspecified",상세불명의 천식
+66,R39.2,66,Extrarenal uraemia,신장외성 요독증
+67,J44.9,65,"Chronic obstructive pulmonary disease, unspecified",상세불명의 만성 폐색성 폐질환
+68,R00.0,65,"Tachycardia, unspecified",상세불명의 빈맥
+69,E86,64,Volume depletion,용적고갈
+70,I48.9,62,"Atrial fibrillation and atrial flutter, unspecified",상세불명의 심방세동 및 심방조동
+71,Z13.8,62,Special screening examination for other specified diseases and disorders,기타 명시된 질환 및 장애에 대한 특수선별검사
+72,E55.9,61,"Vitamin D deficiency, unspecified",상세불명의 비타민D결핍
+73,R50.8,61,Other specified fever,기타 명시된 열
+74,E87.5,59,Hyperkalaemia,고칼륨혈증
+75,I25.5,59,Ischaemic cardiomyopathy,허혈심근병증
+76,B97.2,56,Coronavirus as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 코로나바이러스
+77,R06.0,56,Dyspnoea,호흡곤란
+78,R94.3,56,Abnormal results of cardiovascular function studies,심혈관기능검사의 이상결과
+79,F03,54,Unspecified dementia,상세불명의 치매
+80,R51,54,Headache,두통
+81,J17.1,53,,
+82,K21.9,53,Gastro-oesophageal reflux disease without oesophagitis,식도염을 동반하지 않은 위-식도역류병
+83,Z03.9,52,"Observation for suspected disease or condition, unspecified",상세불명의 의심되는 질병 또는 병태의 관찰
+84,Z74.0,51,Need for assistance due to reduced mobility,감소된 운동성에 대한 지원필요
+85,E87.2,50,Acidosis,산증
+86,J98.8,50,Other specified respiratory disorders,기타 명시된 호흡장애
+87,N17.0,50,Acute renal failure with tubular necrosis,세뇨관괴사를 동반한 급성 신부전
+88,N18.5,50,"Chronic kidney disease, stage 5",만성 신장병(5기)
+89,Z03.8,49,Observation for other suspected diseases and conditions,기타 의심되는 질환 및 병태의 관찰
+90,Z95.5,49,Presence of coronary angioplasty implant and graft,관상동맥혈관성형 삽입물 및 이식편의 존재
+91,I10.0,48,,
+92,Z03.8,47,Observation for other suspected diseases and conditions,기타 의심되는 질환 및 병태의 관찰
+93,I70.2,45,Atherosclerosis of arteries of extremities,사지동맥의 죽상경화증
+94,R26.3,45,Immobility,부동
+95,D62,44,Acute posthaemorrhagic anaemia,급성 출혈후 빈혈
+96,R26.8,44,Other and unspecified abnormalities of gait and mobility,보행 및 이동의 기타 및 상세불명 이상
+97,I25.1,43,Atherosclerotic heart disease,죽상경화성 심장병
+98,E11.6,42,"Type 2 diabetes mellitus, with other specified complications",기타 명시된 합병증을 동반한 2형 당뇨병
+99,R53.8,42,,
+100,Z51.8,42,Other specified medical care,기타 명시된 의료
+101,I50.9,41,"Heart failure, unspecified",상세불명의 심부전
+102,J11.1,41,"Influenza with other respiratory manifestations, virus not identified","바이러스가 확인되지 않은, 기타 호흡기증상을 동반한 인플루엔자"
+103,Z09.8,41,Follow-up examination after other treatment for other conditions,기타 병태에 대한 기타 치료후 추적검사
+104,Z49.1,41,Extracorporeal dialysis,체외투석
+105,J44.0,40,Chronic obstructive pulmonary disease with acute lower respiratory infection,급성 하기도감염을 동반한 만성 폐색성 폐질환
+106,Z50.8,40,Care involving use of other rehabilitation procedures,기타 재활처치를 포함한 치료
+107,Z95.0,40,Presence of electric cardiac devices,심장전자장치의 존재
+108,D72.8,39,Other specified disorders of white blood cells,기타 명시된 백혈구의 장애
+109,R79.8,39,Other specified abnormal findings of blood chemistry,혈액화학의 기타 명시된 이상소견
+110,F06.7,38,Mild cognitive disorder,경도 인지장애
+111,R57.1,38,Hypovolaemic shock,혈량감소성 쇼크
+112,E11.7,36,"Type 2 diabetes mellitus, with multiple complications",다발성 합병증을 동반한 2형 당뇨병
+113,F00.1,36,,
+114,I95.9,36,"Hypotension, unspecified",상세불명의 저혈압
+115,R07.4,36,"Chest pain, unspecified",상세불명의 흉통
+116,R74.8,36,Abnormal levels of other serum enzymes,기타 혈청효소의 이상수치
+117,Z71.3,36,Dietary counselling and surveillance,식사 상담 및 감시
+118,I26.9,35,Pulmonary embolism without mention of acute cor pulmonale,급성 폐심장증에 대한 언급이 없는 폐색전증
+119,R52.0,35,Acute pain,급성 통증
+120,R74.0,35,Elevation of levels of transaminase and lactic acid dehydrogenase [LDH],트란스아미네이스 및 젖산 디하이드로지네이스 수치의 상승
+121,F17.2,34,Dependence syndrome of tobacco,담배흡연의 의존증후군
+122,J18.0,34,"Bronchopneumonia, unspecified",상세불명의 기관지폐렴
+123,R11,34,Nausea and vomiting,구역 및 구토
+124,R11.2,34,Vomiting alone,구토
+125,U04.9,34,"Severe acute respiratory syndrome [SARS], unspecified",상세불명의 중증급성호흡증후군[SARS]
+126,Z76.8,34,Persons encountering health services in other specified circumstances,기타 명시된 상황에서 보건서비스를 접하고 있는 사람
+127,B96.2,33,Escherichia coli [E.coli] as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 대장균
+128,F10.2,33,Dependence syndrome of alcohol,알콜의 의존증후군
+129,Z13.9,33,"Special screening examination, unspecified",상세불명의 특수선별검사
+130,Z20.8,33,Contact with and exposure to other communicable diseases,기타 전염성 질환에 접촉 및 노출
+131,Z87.8,33,Personal history of other specified conditions,기타 명시된 병태의 개인력
+132,D64.8,32,Other specified anaemias,기타 명시된 빈혈
+133,D72.8,32,Other specified disorders of white blood cells,기타 명시된 백혈구의 장애
+134,E11.8,32,"Type 2 diabetes mellitus, with unspecified complications",상세불명의 합병증을 동반한 2형 당뇨병
+135,J15.8,32,Other bacterial pneumonia,기타 세균성 폐렴
+136,R10.4,32,Other and unspecified abdominal pain,기타 및 상세불명의 복통
+137,E11.2,30,,
+138,E86.0,30,Dehydration,탈수
+139,N17.8,30,Other acute renal failure,기타 급성 신부전
+140,N39.0,30,"Urinary tract infection, site not specified",부위가 명시되지 않은 요로감염
+141,Z94.0,30,Kidney transplant status,신장이식상태
+142,Z96.6,30,Presence of orthopaedic joint implants,정형외과적 관절삽입물의 존재
+143,D64.9,29,"Anaemia, unspecified",상세불명의 빈혈
+144,E78.0,29,Pure hypercholesterolaemia,순수 고콜레스테롤혈증
+145,R63.0,29,Anorexia,식욕부진
+146,Z37.0,29,Single live birth,단일생산아
+147,Z79.4,29,,
+148,E11.6,28,"Type 2 diabetes mellitus, with other specified complications",기타 명시된 합병증을 동반한 2형 당뇨병
+149,J69.0,28,Pneumonitis due to food and vomit,음식 또는 구토물에 의한 폐렴
+150,N40,28,Hyperplasia of prostate,전립선증식증
+151,R55,28,Syncope and collapse,실신 및 허탈
+152,R69,28,Unknown and unspecified causes of morbidity,미상 및 상세불명의 병인
+153,Z59.1,28,Inadequate housing,부적절한 주택
+154,Z88.0,28,Personal history of allergy to penicillin,페니실린에 대한 앨러지의 개인력
+155,8E0ZX,27,,
+156,G20,27,Parkinson’s disease,파킨슨병
+157,K59.1,27,Functional diarrhoea,기능성 설사
+158,R53.1,27,,
+159,Z51.3,27,Blood transfusion (without reported diagnosis),(보고된 진단명이 없는) 수혈
+160,Z60.2,27,Living alone,독거생활
+161,Z74.2,27,Need for assistance at home and no other household member able to render care,간호를 제공할 다른 가족 구성원이 없는 가정에 지원 필요
+162,E87.0,26,Hyperosmolality and hypernatraemia,고오스몰랄농도 및 고나트륨혈증
+163,J45.9,26,"Asthma, unspecified",상세불명의 천식
+164,R60.0,26,Localized oedema,국소부종
+165,R65.9,26,"Systemic Inflammatory Response Syndrome, unspecified",상세불명의 전신염증반응증후군
+166,Y95,26,Nosocomial condition,병원과 관련된 상태
+167,B24,25,Unspecified human immunodeficiency virus [HIV] disease,상세불명의 인체면역결핍바이러스병
+168,I25.1,25,Atherosclerotic heart disease,죽상경화성 심장병
+169,J44.1,25,"Chronic obstructive pulmonary disease with acute exacerbation, unspecified",급성 악화를 동반한 상세불명의 만성 폐색성 폐질환
+170,J90,25,"Pleural effusion, NEC",달리 분류되지 않은 흉막삼출액
+171,R07.8,25,,
+172,R26.2,25,"Difficulty in walking, NEC",달리 분류되지 않은 걷기장애
+173,R57.8,25,Other shock,기타 쇼크
+174,J15.6,24,Pneumonia due to other aerobic Gram- negative bacteria,그람음성균에 의한 기타 산소성 폐렴
+175,J80.0,24,,
+176,K59.0,24,Constipation,변비
+177,N10,24,Acute tubulo-interstitial nephritis,급성 세뇨관-간질신장염
+178,R52.1,24,Chronic intractable pain,만성 난치성 통증
+179,F41.9,23,"Anxiety disorder, unspecified",상세불명의 불안장애
+180,I46.9,23,"Cardiac arrest, unspecified",상세불명의 심장정지
+181,I95.1,23,Orthostatic hypotension,기립성 저혈압
+182,R07.9,23,,
+183,R34,23,Anuria and oliguria,무뇨 및 핍뇨
+184,E11.1,22,"Type 2 diabetes mellitus , with acidosis",산증을 동반한 2형 당뇨병
+185,I48.1,22,Persistent atrial fibrillation,지속성 심방세동
+186,J96.1,22,Chronic respiratory failure,만성 호흡부전
+187,R13,22,Dysphagia,삼킴곤란
+188,R33,22,Retention of urine,소변정체
+189,R50.2,22,Drug-induced fever,약물유발 열
+190,E66,21,Obesity,비만
+191,G47.3,21,Sleep apnoea,수면무호흡
+192,M79.1,21,Myalgia,근통
+193,M79.1,21,Myalgia,근통
+194,N18.4,21,"Chronic kidney disease, stage 4",만성 신장병(4기)
+195,R45.1,21,Restlessness and agitation,초조 및 안절부절
+196,D50.9,20,"Iron deficiency anaemia, unspecified",상세불명의 철결핍빈혈
+197,D57.0,20,Sickle-cell anaemia with crisis,발증을 동반한 낫적혈구빈혈
+198,D63.8,20,,
+199,E66.0,20,Obesity due to excess calories,과잉칼로리에 의한 비만
+200,R40.0,20,Somnolence,기면
+201,A09.9,19,Gastroenteritis and colitis of unspecified origin,상세불명 기원의 위장염 및 결장염
+202,D50.8,19,Other iron deficiency anaemias,기타 철결핍빈혈
+203,D69.6,19,"Thrombocytopenia, unspecified",상세불명의 혈소판감소증
+204,R40.2,19,"Coma, unspecified",상세불명의 혼수
+205,U82.2,19,Extended spectrum betalactamase(ESBL) resistance,광범위 베타락탐계내성
+206,B99,18,Other infectious diseases,기타 감염성 질환
+207,B99,18,Other and unspecified infectious diseases,기타 및 상세불명의 감염성 질환
+208,C61,18,Malignant neoplasm of prostate,전립선의 악성 신생물
+209,J02.9,18,"Acute pharyngitis, unspecified",상세불명의 급성 인두염
+210,J17.8,18,,
+211,J44,18,Other chronic obstructive pulmonary disease,기타 만성 폐색성 폐질환
+212,J44.8,18,Other specified chronic obstructive pulmonary disease,기타 명시된 만성 폐색성 폐질환
+213,N08.3,18,,
+214,R52.9,18,"Pain, unspecified",상세불명의 통증
+215,W19,18,Unspecified fall,상세불명의 낙상
+216,Z59.0,18,Homelessness,무주택
+217,Z88.8,18,"Personal history of allergy to other drugs, medicaments and biological substances","기타 약물, 약제 및 생물학적 물질에 대한 앨러지의 개인력"
+218,Z99.1,18,Dependence on respirator,호흡기에 의존
+219,C79.5,17,Secondary malignant neoplasm of bone and bone marrow,골 및 골수의 이차성 악성 신생물
+220,E11.9,17,"Type 2 diabetes mellitus, without complications",합병증을 동반하지 않은 2형 당뇨병
+221,E78.2,17,Mixed hyperlipidaemia,혼합성 고지질혈증
+222,E78.9,17,"Disorder of lipoprotein metabolism, unspecified",지질단백대사의 상세불명 장애
+223,F32.9,17,"Depressive episode, unspecified",상세불명의 우울에피소드
+224,I49.9,17,"Cardiac arrhythmia, unspecified",상세불명의 심장부정맥
+225,I87.2,17,Venous insufficiency (chronic)(peripheral),정맥기능부전(만성)(말초성)
+226,J47,17,Bronchiectasis,기관지확장증
+227,R04.2,17,Haemoptysis,객혈
+228,R41.8,17,Other and unspecified symptoms and signs involving cognitive functions and awareness,인지기능 및 자각에 관련된 기타 및 상세불명의 증상 및 징후
+229,R43.2,17,Parageusia,이상미각
+230,R53.8,17,,
+231,R57.0,17,Cardiogenic shock,심장성 쇼크
+232,R91,17,Abnormal findings on diagnostic imaging of lung,폐의 진단영상검사상 이상소견
+233,Z51.1,17,Chemotherapy session for neoplasm,신생물에 대한 화학요법기간
+234,Z60.3,17,Acculturation difficulty,문화적 적응의 어려움
+235,Z86.7,17,Personal history of diseases of the circulatory system,순환계통질환의 개인력
+236,Z99.3,17,Dependence on wheelchair,휠체어에 의존
+237,B96.8,16,Other specified bacterial agents as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 기타 명시된 세균감염체
+238,B97.8,16,Other viral agents as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 기타 바이러스감염체
+239,C34.9,16,"Bronchus or lung, unspecified",상세불명의 기관지 또는 폐
+240,C90.0,16,Multiple myeloma,다발골수종
+241,E03.8,16,Other specified hypothyroidism,기타 명시된 갑상선기능저하증
+242,F41.2,16,Mixed anxiety and depressive disorder,혼합형 불안 및 우울장애
+243,H35.3,16,Degeneration of macula and posterior pole,황반 및 후극부의 변성
+244,I25.2,16,Old myocardial infarction,오래된 심근경색증
+245,J11.8,16,"Influenza with other manifestations, virus not identified","바이러스가 확인되지 않은, 기타 증상을 동반한 인플루엔자"
+246,K92.1,16,Melaena,흑색변
+247,L97,16,"Ulcer of lower limb, NEC",달리 분류되지 않은 다리의 궤양
+248,N17,16,Acute renal failure,급성 신부전
+249,N17-N,16,,
+250,N19,16,Unspecified kidney failure,상세불명의 신부전
+251,R03.0,16,"Elevated blood-pressure reading, without diagnosis of hypertension",고혈압의 진단 없이 혈압수치 상승
+252,R32,16,Unspecified urinary incontinence,상세불명의 요실금
+253,Z92.2,16,Personal history of long-term (current) use of other medicaments,기타 약제의 오랜 (현존) 사용의 개인력
+254,C50.9,15,"Breast, unspecified",상세불명의 유방
+255,E83.5,15,Disorders of calcium metabolism,칼슘대사장애
+256,J91,15,,
+257,R41.8,15,Other and unspecified symptoms and signs involving cognitive functions and awareness,인지기능 및 자각에 관련된 기타 및 상세불명의 증상 및 징후
+258,Z51.2,15,Other chemotherapy,기타 화학요법
+259,Z71.9,15,"Counselling, unspecified",상세불명의 상담
+260,Z85.3,15,Personal history of malignant neoplasm of breast,유방의 악성 신생물의 개인력
+261,Z96.8,15,Presence of other specified functional implants,기타 명시된 기능적 삽입물의 존재
+262,D69.5,14,Secondary thrombocytopenia,이차성 혈소판감소증
+263,E11.5,14,"Type 2 diabetes mellitus, with circulatorycomplications",순환계 합병증을 동반한 2형 당뇨병
+264,G30.1,14,Alzheimer’s disease with late onset,만기발병을 수반한 알츠하이머병
+265,G40.9,14,"Epilepsy, unspecified",상세불명의 뇌전증
+266,I20-I,14,,
+267,I20-I,14,,
+268,I25,14,Chronic ischaemic heart disease,만성 허혈심장병
+269,I25.8,14,Other forms of chronic ischaemic heart disease,기타 형태의 만성 허혈심장병
+270,I47.1,14,Supraventricular tachycardia,상심실성 빈맥
+271,I50.1,14,Left ventricular failure,좌심실부전
+272,J20.9,14,"Acute bronchitis, unspecified",상세불명의 급성 기관지염
+273,J84.1,14,Other interstitial pulmonary diseases with fibrosis,섬유증을 동반한 기타 간질성 폐질환
+274,J98.1,14,Pulmonary collapse,폐허탈
+275,K52.9,14,"Noninfective gastroenteritis and colitis, unspecified",상세불명의 비감염성 위장염 및 결장염
+276,M62.8,14,Other specified disorders of muscle,근육의 기타 명시된 장애
+277,R52,14,"Pain, NEC",달리 분류되지 않은 통증
+278,Z95.8,14,Presence of other cardiac and vascular implants and grafts,기타 심장 및 혈관 삽입물 및 이식편의 존재
+279,A09.0,13,Other and unspecified gastroenteritis and colitis of infectious origin,감염성 기원의 기타 및 상세불명의 위장염 및 결장염
+280,D70,13,Agranulocytosis,무과립구증
+281,E11.2,13,,
+282,F41.1,13,Generalized anxiety disorder,범불안장애
+283,G30.9,13,"Alzheimer’s disease, unspecified",상세불명의 알츠하이머병
+284,I10-I,13,,
+285,I11.9,13,Hypertensive heart disease without (congestive) heart failure,(울혈성) 심부전이 없는 고혈압성 심장병
+286,I97.3,13,,
+287,J00,13,Acute nasopharyngitis[common cold],급성 비인두염[감기]
+288,J10.0,13,"Influenza with pneumonia, seasonal influenza virus identified","계절성 인플루엔자바이러스가 확인된, 폐렴을 동반한 인플루엔자"
+289,J15.2,13,Pneumonia due to staphylococcus,포도구균에 의한 폐렴
+290,L89.1,13,Stage II decubitus ulcer and pressure area,욕창궤양 및 압박부위 제2단계
+291,M54.5,13,Low back pain,요통
+292,N17.9,13,"Acute renal failure, unspecified",상세불명의 급성 신부전
+293,N41.0,13,Acute prostatitis,급성 전립선염
+294,O26.1,13,Low weight gain in pregnancy,임신중 저체중증가
+295,O26.1,13,Low weight gain in pregnancy,임신중 저체중증가
+296,O26.1,13,Low weight gain in pregnancy,임신중 저체중증가
+297,O26.4,13,Herpes gestationis,임신헤르페스
+298,O26.4,13,Herpes gestationis,임신헤르페스
+299,O26.4,13,Herpes gestationis,임신헤르페스
+300,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+301,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+302,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+303,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+304,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+305,O26.8,13,Other specified pregnancy-related conditions,기타 명시된 임신과 관련된 병태
+306,O99.8,13,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium","임신, 출산 및 산후기에 합병된 기타 명시된 질환 및 병태"
+307,R47.0,13,Dysphasia and aphasia,언어장애 및 실어증(失語症)
+308,R94.5,13,Abnormal results of liver function studies,간기능검사의 이상결과
+309,S72.0,13,Fracture of neck of femur,대퇴골 경부의 골절
+310,Z35.8,13,Supervision of other high-risk pregnancies,기타 고위험임신의 관리
+311,Z46.6,13,Fitting and adjustment of urinary device,요로계 장치의 부착 및 조정
+312,C78.7,12,Secondary malignant neoplasm of liver and intrahepatic bile duct,간 및 간내 담관의 이차성 악성 신생물
+313,G63.2,12,,
+314,H36.0,12,,
+315,H40.9,12,"Glaucoma, unspecified",상세불명의 녹내장
+316,I69.4,12,"Sequelae of stroke, not specified as haemorrhage or infarction",출혈 또는 경색증으로 명시되지 않은 뇌졸중의 후유증
+317,I95.8,12,Other hypotension,기타 저혈압
+318,J18.1,12,"Lobar pneumonia, unspecified",상세불명의 대엽성 폐렴
+319,K59.0,12,Constipation,변비
+320,K72.0,12,Acute and subacute hepatic failure,급성 및 아급성 간부전
+321,N18.6,12,,
+322,R19.4,12,Change in bowel habit,배변습관 변화
+323,R73.9,12,"Hyperglycaemia, unspecified",상세불명의 고혈당증
+324,R77.8,12,Other specified abnormalities of plasma proteins,혈장단백질의 기타 명시된 이상
+325,S06.0,12,Concussion,진탕
+326,Z92.6,12,Personal history of chemotherapy for neoplastic disease,신생물질환에 대한 화학요법의 개인력
+327,D68.3,11,Haemorrhagic disorder due to circulating anticoagulants,순환 항응고제에 의한 출혈장애
+328,D89.9,11,"Disorder involving the immune mechanism, unspecified",상세불명의 면역메커니즘을 침범한 장애
+329,E10.9,11,"Type 1 diabetes mellitus, without complications",합병증을 동반하지 않은 1형 당뇨병
+330,E11.3,11,,
+331,E11.4,11,,
+332,E78.0,11,Pure hypercholesterolaemia,순수 고콜레스테롤혈증
+333,I25.1,11,Atherosclerotic heart disease,죽상경화성 심장병
+334,I44.7,11,"Left bundle-branch block, unspecified",상세불명의 좌각차단
+335,I64,11,"Stroke, not specified as haemorrhage or infarction",출혈 또는 경색증으로 명시되지 않은 뇌졸중
+336,J11.0,11,"Influenza with pneumonia, virus not identified","바이러스가 확인되지 않은, 폐렴을 동반한 인플루엔자"
+337,J18.8,11,"Other pneumonia, organism unspecified",상세불명 병원체의 기타 폐렴
+338,J43.2,11,Centrilobular emphysema,중심소엽성 폐기종
+339,J81,11,Pulmonary oedema,폐부종
+340,J84.9,11,"Interstitial pulmonary disease, unspecified",상세불명의 간질성 폐질환
+341,J98.4,11,Other disorders of lung,폐의 기타 장애
+342,K62.5,11,Haemorrhage of anus and rectum,항문 및 직장의 출혈
+343,K71.0,11,Toxic liver disease with cholestasis,담즙정체를 동반한 독성간질환
+344,M80.0,11,Postmenopausal osteoporosis with pathological fracture,병적 골절을 동반한 폐경후골다공증
+345,MR232,11,,
+346,R00.1,11,"Bradycardia, unspecified",상세불명의 서맥
+347,R09.0,11,Asphyxia,질식
+348,R11.0,11,Projectile vomiting,분출성 구토
+349,R50.8,11,Other specified fever,기타 명시된 열
+350,R50.8,11,Other specified fever,기타 명시된 열
+351,R52.2,11,Other chronic pain,기타 만성 통증
+352,R73.0,11,Abnormal glucose tolerance test,이상포도당내성검사
+353,T81.0,11,"Haemorrhage and haematoma complicating a procedure, NEC",달리 분류되지 않은 처치에 합병된 출혈 및 혈종
+354,Z21,11,Asymptomatic human immunodeficiency virus [HIV] infection status,무증상 인체면역결핍바이러스 감염상태
+355,Z88.5,11,Personal history of allergy to narcotic agent,마약제에 대한 앨러지의 개인력
+356,Z92.4,11,"Personal history of major surgery, NEC",달리 분류되지 않은 대수술의 개인력
+357,Z99.2,11,Dependence on renal dialysis,신장투석기에 의존
+358,A41.8,10,Other specified sepsis,기타 명시된 패혈증
+359,D46.9,10,"Myelodysplastic syndrome, unspecified",상세불명의 골수형성이상증후군
+360,D57.1,10,Sickle-cell anaemia without crisis,발증을 동반하지 않은 낫적혈구빈혈
+361,E44.1,10,Mild protein-energy malnutrition,경도 단백질-에너지영양실조
+362,E61.1,10,Iron deficiency,철결핍
+363,F02.8,10,,
+364,F05.0,10,"Delirium not superimposed on dementia, so described",치매에 병발되지 않은 섬망
+365,F05.1,10,Delirium superimposed on dementia,치매에 병발된 섬망
+366,F32.2,10,Severe depressive episode without psychotic symptoms,정신병적 증상이 없는 중증의 우울에피소드
+367,G31.8,10,Other specified degenerative diseases of nervous system,신경계통의 기타 명시된 퇴행성 질환
+368,G40.8,10,Other epilepsy,기타 뇌전증
+369,G47.0,10,Disorders of initiating and maintaining sleep [insomnias],수면 개시 및 유지 장애[불면증]
+370,I26.9,10,Pulmonary embolism without mention of acute cor pulmonale,급성 폐심장증에 대한 언급이 없는 폐색전증
+371,I35.0,10,Aortic(valve) stenosis,대동맥판협착
+372,I46.0,10,Cardiac arrest with successful resuscitation,인공소생에 성공한 심장정지
+373,I97.8,10,"Other postprocedural disorders of circulatory system, NEC",달리 분류되지 않은 순환계통의 기타 처치후 장애
+374,J13,10,Pneumonia due to Streptococcus pneumoniae,폐렴연쇄구균에 의한 폐렴
+375,J45.8,10,Mixed asthma,혼합형 천식
+376,J80.0,10,,
+377,K70.3,10,Alcoholic cirrhosis of liver,알콜성 간경변증
+378,L89,10,Decubitus ulcer and pressure area,욕창궤양 및 압박부위
+379,R31,10,Unspecified haematuria,상세불명의 혈뇨
+380,R43.0,10,Anosmia,무후각증
+381,R65.2,10,Systemic Inflammatory Response Syndrome of non-infectious origin without organ failure,기관의 부전을 동반하지 않은 비감염성 기원의 전신염증반응증후군
+382,T79.6,10,Traumatic ischaemia of muscle,외상성 근육허혈
+383,U50.0,10,Wind-cold pattern,풍한증(風寒證)
+384,W17,10,Other fall from one level to another,기타 한 면에서 다른 면으로 넘어짐
+385,Z00.0,10,General medical examination,일반적 의학검사
+386,Z51.8,10,Other specified medical care,기타 명시된 의료
+387,Z60.9,10,"Problem related to social environment, unspecified",사회적 환경에 관련된 상세불명의 문제
+388,Z79.8,10,,
+389,Z88.1,10,Personal history of allergy to other antibiotic agents,기타 항생제에 대한 앨러지의 개인력
+390,A46,9,Erysipelas,단독(丹毒)
+391,D47.2,9,Monoclonal gammopathy of undetermined significance (MGUS),미결정의 단클론감마글로불린병증
+392,D63.0,9,,
+393,D68.4,9,Acquired coagulation factor deficiency,후천성 응고인자결핍
+394,E11.0,9,"Type 2 diabetes mellitus, with coma",혼수를 동반한 2형 당뇨병
+395,F00.2,9,,
+396,I12.0,9,Hypertensive renal disease with renal failure,신부전을 동반한 고혈압성 신장병
+397,I26.0,9,Pulmonary embolism with mention of acute cor pulmonale,급성 폐심장증에 대한 언급이 있는 폐색전증
+398,I34.0,9,Mitral(valve) insufficiency,승모판폐쇄부전
+399,I50.0,9,Congestive heart failure,울혈성 심부전
+400,J06.8,9,Other acute upper respiratory  infections of multiple sites,여러 부위의 기타 급성 상기도감염
+401,J15.0,9,Pneumonia due to Klebsiella pneumoniae,폐렴간균에 의한 폐렴
+402,J15.1,9,Pneumonia due to Pseudomonas,슈도모나스에 의한 폐렴
+403,J43.9,9,"Emphysema, unspecified",상세불명의 폐기종
+404,L89.0,9,Stage I decubitus ulcer and pressure area,욕창궤양 및 압박부위 제1단계
+405,N17.9,9,"Acute renal failure, unspecified",상세불명의 급성 신부전
+406,O24.1,9,Pre-existing type 2 diabetes mellitus,전에 있던 2형 당뇨병
+407,R04.0,9,Epistaxis,코피
+408,R18,9,Ascites,복수
+409,R98,9,Unattended death,지켜본 사람이 없었던 사망
+410,T81.4,9,"Infection following a procedure, NEC",달리 분류되지 않은 처치에 따른 감염
+411,Z96.0,9,Presence of urogenital implants,비뇨생식기삽입물의 존재
+412,Z96.7,9,Presence of other bone and tendon implants,기타 골 및 힘줄 삽입물의 존재
+413,B18.2,8,Chronic viral hepatitis C,만성 바이러스C형간염
+414,B37.0,8,Candidal stomatitis,칸디다구내염
+415,C78.0,8,Secondary malignant neoplasm of lung,폐의 이차성 악성 신생물
+416,D50.0,8,Iron deficiency anaemia secondary to blood loss (chronic),(만성) 실혈에 따른 이차성 철겹핍빈혈
+417,E10.1,8,"Type 1 diabetes mellitus, with acidosis",산증을 동반한 1형 당뇨병
+418,E66.8,8,Other obesity,기타 비만
+419,F05.8,8,Other delirium,기타 섬망
+420,F05.9,8,"Delirium, unspecified",상세불명의 섬망
+421,F07.8,8,"Other organic personality and behavioural disorders due to brain disease, damage and dysfunction","뇌질환, 뇌손상 및 뇌기능 이상에 의한 기타 기질성 인격 및 행동 장애"
+422,F20.9,8,"Schizophrenia, unspecified",상세불명의 조현병
+423,G35,8,Multiple sclerosis,다발경화증
+424,G81.9,8,"Hemiplegia, unspecified",상세불명의 편마비
+425,J15.5,8,Pneumonia due to Escherichia coli,대장균에 의한 폐렴
+426,J45.1,8,Nonallergic asthma,비앨러지천식
+427,J45.2,8,,
+428,K74.6,8,Other and unspecified cirrhosis of liver,간의 기타 및 상세불명의 경변증
+429,M35.0,8,Sicca syndrome[Sjögren],건조증후군[쉐그렌]
+430,M62.5,8,"Muscle wasting and atrophy, NEC",달리 분류되지 않은 근육 소모 및 위축
+431,M62.8,8,Other specified disorders of muscle,근육의 기타 명시된 장애
+432,N17.0,8,Acute renal failure with tubular necrosis,세뇨관괴사를 동반한 급성 신부전
+433,Q38.3,8,Other congenital malformations of tongue,혀의 기타 선천기형
+434,R07.3,8,Other chest pain,기타 흉통
+435,R59.0,8,Localized enlarged lymph nodes,국소림프절비대
+436,S72.1,8,Pertrochanteric fracture,대퇴골전자부골절
+437,Z29.1,8,Prophylactic immunotherapy,예방적 면역요법
+438,Z63.2,8,Inadequate family support,부적절한 가족지원
+439,Z74.3,8,Need for continuous supervision,계속적 감독의 필요
+440,Z92.3,8,Personal history of irradiation,방사선조사의 개인력
+441,Z95.2,8,Presence of prosthetic heart valve,인공심장판막의 존재
+442,B95.6,7,Staphylococcus aureus as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 황색포도구균
+443,C78.2,7,Secondary malignant neoplasm of pleura,흉막의 이차성 악성 신생물
+444,D69.5,7,Secondary thrombocytopenia,이차성 혈소판감소증
+445,D86.8,7,Sarcoidosis of other and combined sites,기타 및 복합부위의 사르코이드증
+446,E27.4,7,Other and unspecified adrenocortical insufficiency,기타 및 상세불명의 부신피질부전
+447,E46,7,Unspecified protein-energy malnutrition,상세불명의 단백질-에너지영양실조
+448,E53.8,7,Deficiency of other specified B group vitamins,기타 명시된 비타민 B군의 결핍증
+449,E83.3,7,Disorders of phosphorus metabolism and phosphatases,인대사 및 인산분해효소 장애
+450,F00.9,7,,
+451,F32.1,7,Moderate depressive episode,중등도 우울에피소드
+452,F33.9,7,"Recurrent depressive disorder, unspecified",상세불명의 재발성 우울장애
+453,G45.9,7,"Transient cerebral ischaemic attack, unspecified",상세불명의 일과성 뇌허혈발작
+454,G81.1,7,Spastic hemiplegia,강직성 편마비
+455,I50.1,7,Left ventricular failure,좌심실부전
+456,I67.2,7,Cerebral atherosclerosis,대뇌죽상경화증
+457,J12.2,7,Parainfluenza virus pneumonia,파라인플루엔자바이러스폐렴
+458,J98.7,7,,
+459,L89.2,7,Stage III decubitus ulcer and pressure area,욕창궤양 및 압박부위 제3단계
+460,M15.9,7,"Polyarthrosis, unspecified",상세불명의 다발관절증
+461,R45.4,7,Irritability and anger,자극과민성 및 분노
+462,R47.1,7,Dysarthria and anarthria,구음장애 및 무조음증
+463,R63.4,7,Abnormal weight loss,이상체중감소
+464,S32.8,7,Fracture of other and unspecified parts of lumbar spine and pelvis,요추 및 골반의 기타 및 상세불명 부분의 골절
+465,Y66,7,Nonadministration of surgical and medical care,외과적 및 내과적 치료의 불이행
+466,Z11.5,7,Special screening examination for other viral diseases,기타 바이러스질환에 대한 특수선별검사
+467,Z22.3,7,Carrier of other specified bacterial disease,기타 명시된 세균성 질환의 보균자
+468,Z45.8,7,Adjustment and management of other implanted devices,기타 이식장치의 조정 및 관리
+469,Z53.2,7,Procedure not carried out because of patient’s decision for other and unspecified reasons,기타 및 상세불명의 이유로 인한 환자의 의사결정 때문에 수행되지 못한 처치
+470,B18.1,6,Chronic viral hepatitis B without delta- agent,델타-병원체가 없는 만성 바이러스B형간염
+471,B90.9,6,Sequelae of respiratory and unspecified tuberculosis,호흡기 및 상세불명 결핵의 후유증
+472,B95.2,6,"Streptococcus, group D and enterococcus, as the cause of diseases classified to other chapters",다른 장에서 분류된 질환의 원인으로서의 D군연쇄구균 및 장내구균
+473,B96.1,6,Klebsiella pneumoniae [K.pneumoniae] as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 폐렴막대균
+474,C18.9,6,"Colon, unspecified",상세불명의 결장
+475,C22.0,6,Liver cell carcinoma,간세포암종
+476,C77.1,6,Intrathoracic lymph nodes,흉곽내림프절
+477,C91.1,6,Chronic lymphocytic leukaemia of B-cell type,B-세포형 만성 림프구성 백혈병
+478,C91.1,6,Chronic lymphocytic leukaemia of B-cell type,B-세포형 만성 림프구성 백혈병
+479,D61.1,6,Drug-induced aplastic anaemia,약물유발 무형성빈혈
+480,E66.2,6,Extreme obesity with alveolar hypoventilation,폐포저환기를 동반한 초비만
+481,I10.9,6,Other and unspecified primary hypertension,기타 및 상세불명의 원발성 고혈압
+482,I20.9,6,"Angina pectoris, unspecified",상세불명의 협심증
+483,I21.0,6,Acute transmural myocardial infarction of anterior wall,전벽의 급성 전층심근경색증
+484,I42.0,6,Dilated cardiomyopathy,확장성 심근병증
+485,I44.0,6,"Atrioventricular block, first degree","방실차단, 1도"
+486,I45.1,6,Other and unspecified right bundle-branch block,기타 및 상세불명의 우각차단
+487,I49,6,Other cardiac arrhythmias,기타 심장부정맥
+488,I65.2,6,Occlusion and stenosis of carotid artery,경동맥의 폐쇄 및 협착
+489,J18,6,"Pneumonia, organism unspecified",상세불명 병원체의 폐렴
+490,K50.9,6,"Crohn’s disease, unspecified",상세불명의 크론병
+491,K56.4,6,Other impaction of intestine,장의 기타 감입
+492,L89.3,6,Stage IV decubitus ulcer and pressure area,욕창궤양 및 압박부위 제4단계
+493,M17.9,6,"Gonarthrosis, unspecified",상세불명의 무릎관절증
+494,N18.2,6,"Chronic kidney disease, stage 2",만성 신장병(2기)
+495,R10.1,6,Pain localized to upper abdomen,상복부에 국한된 통증
+496,R15,6,Faecal incontinence,대변실금
+497,R41.1,6,Anterograde amnesia,전향기억상실
+498,R46.0,6,Very low level of personal hygiene,매우 낮은 수준의 개인위생
+499,R64,6,Cachexia,카켁시아
+500,S06.5,6,Traumatic subdural haemorrhage,외상성 경막하출혈
+501,U50.1,6,Wind-heat pattern,풍열증(風熱證)
+502,U69.1,6,Pattern of lung yin deficiency,폐음허증(肺陰虛證)
+503,W18,6,Other fall on same level,동일면상에서의 기타 낙상
+504,Z08.2,6,Follow-up examination after chemotherapy for malignant neoplasm,악성 신생물에 대한 화학요법후 추적검사
+505,Z48.9,6,"Surgical follow-up care, unspecified",상세불명의 외과적 추적치료
+506,Z53.0,6,Procedure not carried out because of contraindication,금기증 때문에 수행되지 못한 처치
+507,Z74.8,6,Other problems related to care-provider dependency,간호제공자 의존성에 관련된 기타 문제
+508,Z94.8,6,Other transplanted organ and tissue status,기타 이식된 기관 및 조직 상태
+509,Z97.8,6,Presence of other specified devices,기타 명시된 장치의 존재
+510,A04.7,5,Enterocolitis due to Clostridium difficile,클로스트리듐 디피실리에 의한 장결장염
+511,A41.8,5,Other specified sepsis,기타 명시된 패혈증
+512,B96.5,5,Pseudomonas(aeruginosa) as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 슈도모나스 (아에루기노사)
+513,C64,5,"Malignant neoplasm of kidney, except renal pelvis",신우를 제외한 신장의 악성 신생물
+514,C67.9,5,"Bladder, unspecified",상세불명의 방광
+515,C78.6,5,Secondary malignant neoplasm of retroperitoneum and peritoneum,후복막 및 복막의 이차성 악성 신생물
+516,D69.3,5,Idiopathic thrombocytopenic purpura,특발성 혈소판감소성 자반
+517,D84.8,5,Other specified immunodeficiencies,기타 명시된 면역결핍
+518,D90,5,,
+519,E05.9,5,"Thyrotoxicosis, unspecified",상세불명의 갑상선독증
+520,E13.9,5,"Other specified diabetes mellitus, without complications",합병증을 동반하지 않은 기타 명시된 당뇨병
+521,E16.1,5,Other hypoglycaemia,기타 저혈당
+522,E16.2,5,"Hypoglycaemia, unspecified",상세불명의 저혈당
+523,E83.5,5,Disorders of calcium metabolism,칼슘대사장애
+524,F01.3,5,Mixed cortical and subcortical vascular dementia,혼합형 피질 및 피질하 혈관성 치매
+525,F10.0,5,Acute intoxication due to use of alcohol,알콜 사용에 의한 급성 중독
+526,F41.8,5,Other specified anxiety disorders,기타 명시된 불안장애
+527,G81.0,5,Flaccid hemiplegia,이완성 편마비
+528,G82.3,5,Flaccid tetraplegia,이완성 사지마비
+529,I25.1,5,Atherosclerotic heart disease,죽상경화성 심장병
+530,I25.8,5,Other forms of chronic ischaemic heart disease,기타 형태의 만성 허혈심장병
+531,I27.2,5,Other secondary pulmonary hypertension,기타 이차성 폐동맥고혈압
+532,I44,5,Atrioventricular and left bundle-branch block,방실차단 및 좌각차단
+533,I49.5,5,Sick sinus syndrome,동기능부전증후군
+534,I49.8,5,Other specified cardiac arrhythmias,기타 명시된 심장부정맥
+535,I51.9,5,"Heart disease, unspecified",상세불명의 심장병
+536,I63.9,5,"Cerebral infarction, unspecified",상세불명의 뇌경색증
+537,I69.3,5,Sequelae of cerebral infarction,뇌경색증의 후유증
+538,J45.0,5,Predominantly allergic asthma,주로 앨러지성 천식
+539,J84.8,5,Other specified interstitial pulmonary diseases,기타 명시된 간질성 폐질환
+540,J98.1,5,Pulmonary collapse,폐허탈
+541,K44.9,5,Diaphragmatic hernia without obstruction or gangrene,폐색 또는 괴저가 없는 횡격막탈장
+542,K56.6,5,Other and unspecified intestinal obstruction,기타 및 상세불명의 장폐색
+543,M45,5,Ankylosing spondylitis,강직척추염
+544,MR705,5,,
+545,N11.0,5,Nonobstructive reflux-associated chronic pyelonephritis,비폐색성 역류-연관 만성 신우신염
+546,N17.9,5,"Acute renal failure, unspecified",상세불명의 급성 신부전
+547,N18.1,5,"Chronic kidney disease, stage 1",만성 신장병(1기)
+548,O80.0,5,Spontaneous vertex delivery,자연두정태위분만
+549,O82.1,5,Delivery by emergency caesarean section,응급제왕절개에 의한 분만
+550,R06.8,5,Other and unspecified abnormalities of breathing,기타 및 상세불명의 호흡이상
+551,R09.2,5,Respiratory arrest,호흡정지
+552,R13.9,5,,
+553,S32.0,5,Fracture of lumbar vertebra,요추의 골절
+554,U69.0,5,Pattern of lung qi deficiency,폐기허증(肺氣虛證)
+555,W01,5,"Fall on same level from slipping, tripping and stumbling","미끄러짐, 걸림 및 헛디딤에 의한 동일 면상에서의 낙상"
+556,Y44.2,5,Anticoagulants,항응고제
+557,Z20.0,5,Contact with and exposure to intestinal infectious diseases,장감염질환에 접촉 및 노출
+558,Z35.2,5,Supervision of pregnancy with other poor reproductive or obstetric history,기타 불량한 생식 또는 산과적 기왕력이 있는 임신의 관리
+559,Z39.1,5,Care and examination of lactating mother,수유모의 관리 및 검사
+560,Z48.0,5,Attention to surgical dressings and sutures,외과적 드레싱 및 봉합에 대한 관리
+561,Z48.8,5,Other specified surgical follow-up care,기타 명시된 외과적 추적치료
+562,Z50.2,5,Alcohol rehabilitation,알콜재활
+563,Z50.9,5,"Care involving use of rehabilitation procedure, unspecified",상세불명의 재활처치를 포함한 치료
+564,Z60.8,5,Other problems related to social environment,사회적 환경에 관련된 기타 문제
+565,Z63.9,5,"Problem related to primary support group, unspecified",일차지원집단에 관련된 상세불명의 문제
+566,Z90.2,5,Acquired absence of lung [part of],폐[일부]의 후천성 결여
+567,A08.3,4,Other viral enteritis,기타 바이러스장염
+568,A41.0,4,Sepsis due to Staphylococcus aureus,황색포도구균에 의한 패혈증
+569,B17.8,4,Other specified acute viral hepatitis,기타 명시된 급성 바이러스간염
+570,B97.8,4,Other viral agents as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 기타 바이러스감염체
+571,C22.1,4,Intrahepatic bile duct carcinoma,간내담관암종
+572,C34.1,4,"Upper lobe, bronchus or lung","상엽, 기관지 또는 폐"
+573,C54.1,4,Endometrium,자궁내막
+574,D70.1,4,,
+575,D86.0,4,Sarcoidosis of lung,폐의 사르코이드증
+576,D86.9,4,"Sarcoidosis, unspecified",상세불명의 사르코이드증
+577,D89.0,4,Polyclonal hypergammaglobulinaemia,다클론고감마글로불린혈증
+578,E05.0,4,Thyrotoxicosis with diffuse goitre,미만성 고이터를 동반한 갑상선독증
+579,E10.1,4,"Type 1 diabetes mellitus, with acidosis",산증을 동반한 1형 당뇨병
+580,E10.8,4,"Type 1 diabetes mellitus, with unspecified complications",상세불명의 합병증을 동반한 1형 당뇨병
+581,E11.3,4,,
+582,E11.3,4,,
+583,E11.3,4,,
+584,E11.3,4,,
+585,E14.9,4,"Unspecified diabetes mellitus, without complications",합병증을 동반하지 않은 상세불명의 당뇨병
+586,E87.4,4,Mixed disorder of acid-base balance,산-염기균형의 혼합 장애
+587,E89.0,4,Postprocedural  hypothyroidism,처치후 갑상선기능저하증
+588,F00.0,4,,
+589,F01.1,4,Multi-infarct dementia,다발-경색치매
+590,F01.8,4,Other vascular dementia,기타 혈관성 치매
+591,F01.9,4,"Vascular dementia, unspecified",상세불명의 혈관성 치매
+592,F22.0,4,Delusional disorder,망상장애
+593,F29,4,Unspecified nonorganic psychosis,상세불명의 비기질성 정신병
+594,F32.0,4,Mild depressive episode,경도 우울에피소드
+595,F43.1,4,Post-traumatic stress disorder,외상후스트레스장애
+596,G30.8,4,Other Alzheimer’s disease,기타 알츠하이머병
+597,G40.1,4,Localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures,단순부분발작을 동반한 국소화-관련 (초점성)(부분적) 증상성 뇌전증 및  뇌전증증후군
+598,G40.2,4,Localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures,복합부분발작을 동반한 국소화-관련 (초점성)(부분적) 증상성 뇌전증 및  뇌전증증후군
+599,G70.0,4,Myasthenia gravis,중증근무력증
+600,H25.1,4,Senile nuclear cataract,노년성 핵백내장
+601,H26.9,4,"Cataract, unspecified",상세불명의 백내장
+602,H53.4,4,Visual field defects,시야결손
+603,H54.4,4,"Blindness, monocular",단안실명
+604,I21.4,4,Acute subendocardial myocardial infarction,급성 심내막하심근경색증
+605,I25.1,4,Atherosclerotic heart disease,죽상경화성 심장병
+606,I25.1,4,Atherosclerotic heart disease,죽상경화성 심장병
+607,I60,4,Subarachnoid haemorrhage,지주막하출혈
+608,I61.9,4,"Intracerebral haemorrhage, unspecified",상세불명의 뇌내출혈
+609,I71,4,Aortic aneurysm and dissection,대동맥동맥류 및 박리
+610,J09,4,Influenza due to identified zoonotic or pandemic influenza virus,확인된 동물매개 또는 범유행 인플루엔자바이러스에 의한 인플루엔자
+611,J16.8,4,Pneumonia due to other specified infectious organisms,기타 명시된 감염성 병원체에 의한 폐렴
+612,J20.6,4,Acute bronchitis due to rhinovirus,라이노바이러스에 의한 급성 기관지염
+613,K29.5,4,"Chronic gastritis, unspecified",상세불명의 만성 위염
+614,K57.3,4,Diverticular disease of large intestine without perforation or abscess,천공 또는 농양이 없는 대장의 게실병
+615,K62,4,Other diseases of anus and rectum,항문 및 직장의 기타 질환
+616,K72.9,4,"Hepatic failure, unspecified",상세불명의 간부전
+617,K75.8,4,Other specified inflammatory liver diseases,기타 명시된 염증성 간질환
+618,K80.2,4,Calculus of gallbladder without cholecystitis,담낭염이 없는 담낭의 결석
+619,K83.1,4,Obstruction of bile duct,담관의 폐색
+620,K92.2,4,"Gastrointestinal haemorrhage, unspecified",상세불명의 위장출혈
+621,L40.9,4,"Psoriasis, unspecified",상세불명의 건선
+622,L89.1,4,Stage II decubitus ulcer and pressure area,욕창궤양 및 압박부위 제2단계
+623,M11.2,4,Other chondrocalcinosis,기타 연골석회증
+624,M16.0,4,"Primary coxarthrosis, bilateral",양쪽 원발성 고관절증
+625,M54.3,4,Sciatica,좌골신경통
+626,M79,4,"Other soft tissue disorders, NEC",달리 분류되지 않은 기타 연조직장애
+627,N12,4,"Tubulo-interstitial nephritis, not specified as acute or chronic",급성 또는 만성으로 명시되지 않은 세뇨관-간질신장염
+628,N17.9,4,"Acute renal failure, unspecified",상세불명의 급성 신부전
+629,O24.4,4,Diabetes mellitus arising in pregnancy,임신중 생긴 당뇨병
+630,O47.0,4,False labour before 37 completed weeks of gestation,임신 37주전의 가진통
+631,O99.0,4,"Anaemia complicating pregnancy, childbirth and the puerperium","임신, 출산 및 산후기에 합병된 빈혈"
+632,R00.2,4,Palpitations,두근거림
+633,R04,4,Haemorrhage from respiratory passages,기도출혈
+634,R20.1,4,Hypoaesthesia of skin,피부의 감각저하
+635,R27.0,4,"Ataxia, unspecified",상세불명의 운동실조
+636,R44.1,4,Visual hallucinations,환시
+637,R60.1,4,Generalized oedema,전신부종
+638,S42.2,4,Fracture of upper end of humerus,상완골 상단의 골절
+639,S72.1,4,Pertrochanteric fracture,대퇴골전자부골절
+640,T81.8,4,"Other complications of procedures, NEC",달리 분류되지 않은 처치의 기타 합병증
+641,T85.7,4,"Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts","기타 내부 인공삽입장치, 삽입물 및 이식편에 의한 감염 및 염증반응"
+642,Y42.0,4,Glucocorticoids and synthetic analogues,글루코코티코이드 및 합성 유사체
+643,Z43.0,4,Attention to tracheostomy,기관절개에 대한 관리
+644,Z43.1,4,Attention to gastrostomy,위조루에 대한 관리
+645,Z45.2,4,Adjustment and management of vascular access device,혈관통로장치의 조정 및 관리
+646,Z59.6,4,Low income,저소득
+647,Z59.9,4,"Problem related to housing and economic circumstances, unspecified",주택 및 경제적 상황에 관련된 상세불명의 문제
+648,Z74,4,Problems related to care-provider dependency,간호제공자 의존성에 관련된 문제
+649,Z75.8,4,Other problems related to medical facilities and other health care,의료시설 및 기타 보건관리에 관련된 기타 문제
+650,Z85.0,4,Personal history of malignant neoplasm of digestive organs,소화기관의 악성 신생물의 개인력
+651,Z85.7,4,"Personal history of other malignant neoplasms of lymphoid, haematopoietic and related tissues","림프, 조혈조직 및 관련 조직의 기타 악성 신생물의 개인력"
+652,Z91.1,4,Personal history of noncompliance with medical treatment and regimen,의학적 치료 및 요법에 대한 불순응의 개인력
+653,A40,3,Streptococcal sepsis,연쇄구균패혈증
+654,A41.5,3,Sepsis due to other Gram-negative organisms,기타 그람음성균에 의한 패혈증
+655,A49,3,Bacterial infection of unspecified site,상세불명 부위의 세균감염
+656,A49.9,3,"Bacterial infection, unspecified",상세불명의 세균감염
+657,B37,3,Candidiasis,칸디다증
+658,B44.0,3,Invasive pulmonary aspergillosis,침습성 폐아스페르길루스증
+659,B95,3,Streptococcus and staphylococcus as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 연쇄구균 및 포도구균
+660,C71,3,Malignant neoplasm of brain,뇌의 악성 신생물
+661,C79.3,3,Secondary malignant  neoplasm of brain and cerebral meninges,뇌 및 뇌막의 이차성 악성 신생물
+662,C91.0,3,Acute lymphoblastic leukaemia [ALL],급성 림프모구성 백혈병 [ALL]
+663,D49.6,3,,
+664,D61.1,3,Drug-induced aplastic anaemia,약물유발 무형성빈혈
+665,D65,3,Disseminated intravascular coagulation [defibrination syndrome],파종성 혈관내응고[탈피브린증후군]
+666,D68.0,3,Von Willebrand’s disease,폰빌레브란트병
+667,D69.6,3,"Thrombocytopenia, unspecified",상세불명의 혈소판감소증
+668,E79.0,3,Hyperuricaemia without signs of inflammatory arthritis and tophaceous disease,염증성 관절염 및 통풍성 질환의 징후가 없는 고뇨산혈증
+669,E87.7,3,Fluid overload,체액과부하
+670,F17,3,Mental and behavioural disorders due to use of tobacco,담배흡연에 의한 정신 및 행동 장애
+671,G47.3,3,Sleep apnoea,수면무호흡
+672,G47.3,3,Sleep apnoea,수면무호흡
+673,G93,3,Other disorders of brain,뇌의 기타 장애
+674,G94.3,3,,
+675,I11.9,3,Hypertensive heart disease without (congestive) heart failure,(울혈성) 심부전이 없는 고혈압성 심장병
+676,I42,3,Cardiomyopathy,심근병증
+677,I61,3,Intracerebral haemorrhage,뇌내출혈
+678,I67.8,3,Other specified cerebrovascular diseases,기타 명시된 뇌혈관질환
+679,I67.8,3,Other specified cerebrovascular diseases,기타 명시된 뇌혈관질환
+680,I67.8,3,Other specified cerebrovascular diseases,기타 명시된 뇌혈관질환
+681,I67.8,3,Other specified cerebrovascular diseases,기타 명시된 뇌혈관질환
+682,I82.8,3,Embolism and thrombosis of other specified veins,기타 명시된 정맥의 색전증 및 혈전증
+683,J21.9,3,"Acute bronchiolitis, unspecified",상세불명의 급성 세기관지염
+684,J95,3,"Postprocedural respiratory disorders, NEC",달리 분류되지 않은 처치후 호흡장애
+685,J98.0,3,"Diseases of bronchus, NEC",달리 분류되지 않은 기관지의 질환
+686,J99.8,3,,
+687,K76.9,3,"Liver disease, unspecified",상세불명의 간질환
+688,L89.1,3,Stage II decubitus ulcer and pressure area,욕창궤양 및 압박부위 제2단계
+689,M54,3,Dorsalgia,등통증
+690,Q21.2,3,Atrioventricular septal defect,방실중격결손
+691,R07,3,Pain in throat and chest,목구멍 및 가슴의 통증
+692,R13.0,3,,
+693,R63,3,Symptoms and signs concerning food and fluid intake,음식 및 수액 섭취에 관계된 증상 및 징후
+694,R63.3,3,Feeding difficulties and mismanagement,급식곤란 및 관리부적절
+695,S01,3,Open wound of head,머리의 열린상처
+696,S22,3,"Fracture of rib(s), sternum and thoracic spine","늑골, 흉골 및 흉추의 골절"
+697,S42,3,Fracture of shoulder and upper arm,어깨 및 위팔의 골절
+698,T82.7,3,"Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts","기타 심장 및 혈관 장치, 삽입물 및 이식편에 의한 감염 및 염증반응"
+699,T82.8,3,"Other specified complications of cardiac and vascular prosthetic devices, implants and grafts","심장 및 혈관 인공삽입장치, 삽입물 및 이식편의 기타 명시된 합병증"
+700,XXXXB,3,,
+701,Z03.4,3,Observation for suspected myocardial infarction,의심되는 심근경색증의 관찰
+702,Z34,3,Supervision of normal pregnancy,정상임신의 관리
+703,Z76.3,3,Healthy person accompanying sick person,병든 사람을 동반하여 온 건강한 사람
+704,Z78.9,3,,
+705,Z86.1,3,Personal history of infectious and parasitic diseases,감염성 및 기생충 질환의 개인력
+706,Z90,3,"Acquired absence of organs, NEC",달리 분류되지 않은 기관의 후천성 결여
+707,Z95.8,3,Presence of other cardiac and vascular implants and grafts,기타 심장 및 혈관 삽입물 및 이식편의 존재
+708,Z98.8,3,Other specified postsurgical states,기타 명시된 수술후 상태
+709,C44.0,2,Skin of lip,입술의 피부
+710,E10.9,2,"Type 1 diabetes mellitus, without complications",합병증을 동반하지 않은 1형 당뇨병
+711,G62.9,2,"Polyneuropathy, unspecified",상세불명의 다발신경병증
+712,I69.9,2,,
+713,I97.0,2,Postcardiotomy syndrome,심장절개후증후군
+714,I97.1,2,Other functional disturbances following cardiac surgery,심장수술후의 기타 기능장애
+715,I97.1,2,Other functional disturbances following cardiac surgery,심장수술후의 기타 기능장애
+716,I97.1,2,Other functional disturbances following cardiac surgery,심장수술후의 기타 기능장애
+717,J96.1,2,Chronic respiratory failure,만성 호흡부전
+718,L83,2,Acanthosis nigricans,흑색극세포증
+719,L89.1,2,Stage II decubitus ulcer and pressure area,욕창궤양 및 압박부위 제2단계
+720,M14.8,2,,
+721,O09.4,2,,
+722,T85.6,2,"Mechanical complication of other specified internal prosthetic devices, implants and grafts","기타 명시된 내부 인공삽입장치, 삽입물 및 이식편의 기계적 합병증"
+723,A04.4,1,Other intestinal Escherichia coli infection,기타 장대장균감염
+724,A95.0,1,Sylvatic yellow fever,삼림형황열
+725,A95.1,1,Urban yellow fever,도시형황열
+726,B15.0,1,Hepatitis A with hepatic coma,간성 혼수가 있는 A형간염
+727,B39.4,1,"Histoplasmosis capsulati, unspecified",상세불명의 캡슐라툼 히스토플라스마증
+728,B74.0,1,Filariasis due to Wuchereria bancrofti,반크로프트사상충에 의한 사상충증
+729,B97.4,1,Respiratory syncytial virus as the cause of diseases classified to other chapters,다른 장에서 분류된 질환의 원인으로서의 호흡기세포융합바이러스
+730,C18.2,1,Ascending colon,상행결장
+731,C18.3,1,Hepatic flexure,간굴곡
+732,C81.9,1,"Hodgkin lymphoma, unspecified",상세불명의 호지킨림프종
+733,C82.2,1,"Follicular lymphoma grade III, unspecified","소포성 림프종 등급 III, 상세불명"
+734,C83.3,1,Diffuse large B-cell lymphoma,미만성 대B-세포림프종
+735,C83.3,1,Diffuse large B-cell lymphoma,미만성 대B-세포림프종
+736,C83.3,1,Diffuse large B-cell lymphoma,미만성 대B-세포림프종
+737,C85.1,1,"B-cell lymphoma, unspecified",상세불명의 B-세포림프종
+738,C91.0,1,Acute lymphoblastic leukaemia [ALL],급성 림프모구성 백혈병 [ALL]
+739,C92.0,1,Acute myeloblastic leukaemia [AML],급성 골수모구성 백혈병
+740,C92.0,1,Acute myeloblastic leukaemia [AML],급성 골수모구성 백혈병
+741,C92.4,1,Acute promyelocytic leukaemia[PML],급성 전골수구성 백혈병[PML]
+742,C92.4,1,Acute promyelocytic leukaemia[PML],급성 전골수구성 백혈병[PML]
+743,D10.0,1,Lip,입술
+744,D50,1,Iron deficiency anaemia,철결핍빈혈
+745,D51,1,Vitamin B12 deficiency anaemia,비타민B12결핍빈혈
+746,D51.1,1,Vitamin B12 deficiency anaemia due to selective Vitamin B12 malabsorption with proteinuria,단백뇨를 동반한 선택적인 비타민 B12흡수장애에 의한 비타민B12결핍빈혈
+747,D51.3,1,Other dietary Vitamin B12 deficiency anaemia,기타 식사성 비타민B12결핍빈혈
+748,D51.8,1,Other Vitamin B12 deficiency anaemias,기타 비타민B12결핍빈혈
+749,D51.9,1,"Vitamin B12 deficiency anaemia, unspecified",상세불명의 비타민B12결핍빈혈
+750,D57.4,1,,
+751,D57.4,1,,
+752,D58.9,1,"Hereditary haemolytic anaemia, unspecified",상세불명의 유전성 용혈성 빈혈
+753,D69.4,1,Other primary thrombocytopenia,기타 원발성 혈소판감소증
+754,D70.8,1,Other agranulocytosis,기타 무과립구증
+755,D70.9,1,,
+756,D84.9,1,"Immunodeficiency, unspecified",상세불명의 면역결핍
+757,D86.2,1,Sarcoidosis of lung with sarcoidosis of lymph nodes,림프절의 사르코이드증을 동반한 폐의 사르코이드증
+758,D89.8,1,"Other specified disorders involving the immune mechanism, NEC",달리 분류되지 않은 면역메커니즘을 침범한 기타 명시된 장애
+759,E10.9,1,"Type 1 diabetes mellitus, without complications",합병증을 동반하지 않은 1형 당뇨병
+760,E73,1,Lactose intolerance,젖당불내성
+761,E73.9,1,"Lactose intolerance, unspecified",상세불명의 젖당불내성
+762,E74.3,1,Other disorders of intestinal carbohydrate absorption,장성 탄수화물흡수의 기타 장애
+763,F34.8,1,Other persistent mood[affective] disorders,기타 지속성 기분[정동]장애
+764,F79,1,Unspecified mental retardation,상세불명의 정신지체
+765,F84.0,1,Childhood autism,소아기 자폐증
+766,G40.9,1,"Epilepsy, unspecified",상세불명의 뇌전증
+767,G82.2,1,"Paraplegia, unspecified",상세불명의 하반신마비
+768,G82.2,1,"Paraplegia, unspecified",상세불명의 하반신마비
+769,G83.9,1,"Paralytic syndrome, unspecified",상세불명의 마비증후군
+770,G91.0,1,Communicating hydrocephalus,교통성 수두증
+771,G91.9,1,"Hydrocephalus, unspecified",상세불명의 수두증
+772,H31.2,1,Hereditary choroidal dystrophy,유전성 맥락막디스트로피
+773,H31.2,1,Hereditary choroidal dystrophy,유전성 맥락막디스트로피
+774,H35,1,Other retinal disorders,기타 망막장애
+775,H47.6,1,Disorders of visual cortex,시각피질의 장애
+776,H65.2,1,Chronic serous otitis media,만성 장액성 중이염
+777,H65.2,1,Chronic serous otitis media,만성 장액성 중이염
+778,H92.0,1,Otalgia,귀통증
+779,I06.0,1,Rheumatic aortic stenosis,류마티스성 대동맥협착
+780,I07,1,Rheumatic tricuspid valve diseases,류마티스성 삼첨판질환
+781,I07.0,1,Tricuspid stenosis,삼첨판협착
+782,I07.1,1,Tricuspid insufficiency,삼첨판폐쇄부전
+783,I07.2,1,Tricuspid stenosis with insufficiency,폐쇄부전을 동반한 삼첨판협착
+784,I07.8,1,Other tricuspid valve diseases,기타 삼첨판질환
+785,I07.9,1,"Tricuspid valve disease, unspecified",상세불명의 삼첨판질환
+786,I33.0,1,Acute and subacute infective endocarditis,급성 및 아급성 감염성 심내막염
+787,I33.9,1,"Acute endocarditis, unspecified",상세불명의 급성 심내막염
+788,I34.8,1,Other nonrheumatic mitral valve disorders,기타 비류마티스성 승모판장애
+789,I47.2,1,Ventricular tachycardia,심실성 빈맥
+790,I50,1,Heart failure,심부전
+791,I50.0,1,Congestive heart failure,울혈성 심부전
+792,I50.8,1,,
+793,I51.0,1,"Cardiac septal defect, acquired",후천성 심장중격결손
+794,I65.2,1,Occlusion and stenosis of carotid artery,경동맥의 폐쇄 및 협착
+795,J10.1,1,"Influenza with other respiratory manifestations, seasonal influenza virus identified","계절성 인플루엔자바이러스가 확인된, 기타 호흡기 증상을 동반한 인플루엔자"
+796,J11.2,1,,
+797,J11.8,1,"Influenza with other manifestations, virus not identified","바이러스가 확인되지 않은, 기타 증상을 동반한 인플루엔자"
+798,J11.8,1,"Influenza with other manifestations, virus not identified","바이러스가 확인되지 않은, 기타 증상을 동반한 인플루엔자"
+799,J40,1,"Bronchitis, not specified as acute or chronic",급성인지 만성인지 명시되지 않은 기관지염
+800,J41.0,1,Simple chronic bronchitis,단순 만성 기관지염
+801,J45.9,1,"Asthma, unspecified",상세불명의 천식
+802,K12.3,1,Oral mucositis (ulcerative),구강점막염(궤양성)
+803,K35.8,1,"Acute appendicitis, other and unspecified",기타 및 상세불명의 급성 충수염
+804,K37,1,Unspecified appendicitis,상세불명의 충수염
+805,K41.3,1,"Unilateral or unspecified femoral hernia, with obstruction, without gangrene",폐색은 있지만 괴저가 없는 한쪽 또는 상세불명의 대퇴탈장
+806,K46.0,1,"Unspecified abdominal hernia with obstruction, without gangrene",폐색은 있지만 괴저가 없는 상세불명의 복벽탈장
+807,K51.0,1,Ulcerative (chronic) pancolitis,궤양성 (만성) 범결장염
+808,K51.8,1,Other ulcerative colitis,기타 궤양성 대장염
+809,K55.0,1,Acute vascular disorders of intestine,장의 급성 혈관장애
+810,K55.0,1,Acute vascular disorders of intestine,장의 급성 혈관장애
+811,K82.0,1,Obstruction of gallbladder,담낭의 폐색
+812,M08.3,1,Juvenile polyarthritis (seronegative),(혈청검사음성인) 연소성 다발관절염
+813,M08.9,1,"Juvenile arthritis, unspecified",상세불명의 연소성 관절염
+814,M35.8,1,Other specified systemic involvement of connective tissue,결합조직의 기타 명시된 전신침범
+815,M60.0,1,Infective myositis,감염성 근염
+816,M60.0,1,Infective myositis,감염성 근염
+817,M60.0,1,Infective myositis,감염성 근염
+818,M84.3,1,"Stress fracture, NEC",달리 분류되지 않은 스트레스골절
+819,M84.3,1,"Stress fracture, NEC",달리 분류되지 않은 스트레스골절
+820,M84.4,1,"Pathological fracture, NEC",달리 분류되지 않은 병적 골절
+821,M84.4,1,"Pathological fracture, NEC",달리 분류되지 않은 병적 골절
+822,M84.4,1,"Pathological fracture, NEC",달리 분류되지 않은 병적 골절
+823,M84.6,1,,
+824,M86.6,1,Other chronic osteomyelitis,기타 만성 골수염
+825,M86.8,1,Other osteomyelitis,기타 골수염
+826,M87,1,Osteonecrosis,골괴사
+827,M87.9,1,"Osteonecrosis, unspecified",상세불명의 골괴사
+828,M89.5,1,Osteolysis,골용해
+829,M90.6,1,,
+830,N00.8,1,Other acute nephritic syndrome,기타 급성 신염증후군
+831,N05.9,1,Unspecified nephritic syndrome,상세불명의 상세불명의 신염증후군
+832,N20.1,1,Calculus of ureter,요관의 결석
+833,N25.1,1,Nephrogenic diabetes insipidus,신장성 요붕증
+834,N30.0,1,Acute cystitis,급성 방광염
+835,N30.0,1,Acute cystitis,급성 방광염
+836,N30.0,1,Acute cystitis,급성 방광염
+837,N40.0,1,Hyperplasia of prostate without complication,합병증을 동반하지 않은 전립선증식증
+838,O04.8,1,"Complete or unspecified medical abortion, with other and unspecified complications (conditions in O08.3-O08.9)",기타 및 상세불명의 합병증이 동반된 완전 또는 상세불명의 의학적 유산 (O08.3-O08.9의 병태)
+839,O07.0,1,"Failed medical abortion, complicated by genital tract and pelvic infection",생식관 및 골반감염이 합병된 의학적 유산의 실패
+840,O07.3,1,"Failed medical abortion, with other and unspecified complications",기타 및 상세불명의 합병증에 의한 의학적 유산의 실패
+841,O08.4,1,Renal failure following abortion and ectopic and molar pregnancy,"유산, 자궁외임신 및 기태임신에 따른 신부전"
+842,P01.0,1,Fetus and newborn affected by incompetent cervix,자궁경관무력증에 의해 영향을 받은 태아 및 신생아
+843,P01.6,1,Fetus and newborn affected by maternal death,모성사망에 의해 영향을 받은 태아 및 신생아
+844,P07.3,1,Other preterm infants,기타 조산아 : 임신후 28주 이상 37주(196일 이상 259일) 미만
+845,P52.2,1,"Intraventricular (nontraumatic) haemorrhage, grade 3 and grade 4 of fetus and newborn",태아 및 신생아의 (비외상성) 뇌실내출혈 3등급 및 4등급
+846,Q22.5,1,Ebstein’s anomaly,에브스타인이상
+847,Q38.2,1,Macroglossia,대설증
+848,Q85.0,1,Neurofibromatosis (nonmalignant),신경섬유종증(비악성)
+849,Q85.1,1,Tuberous sclerosis,결절성 경화증
+850,Q90.9,1,"Down’s syndrome, unspecified",상세불명의 다운증후군
+851,R06.0,1,Dyspnoea,호흡곤란
+852,R06.8,1,Other and unspecified abnormalities of breathing,기타 및 상세불명의 호흡이상
+853,R11.1,1,Nausea alone,구역
+854,R45.8,1,Other symptoms and signs involving emotional state,정서상태에 관련된 기타 증상 및 징후
+855,S12.9,1,"Fracture of neck, part unspecified",목의 상세불명 부분의 골절
+856,S22.0,1,Fracture of thoracic vertebra,흉추의 골절
+857,S42.0,1,Fracture of clavicle,쇄골의 골절
+858,S51.8,1,Open wound of other parts of forearm,아래팔의 기타 부분의 열린상처
+859,S63.0,1,Dislocation of wrist,손목의 탈구
+860,S72.0,1,Fracture of neck of femur,대퇴골 경부의 골절
+861,S72.1,1,Pertrochanteric fracture,대퇴골전자부골절
+862,S79.0,1,,
+863,S82.0,1,Fracture of patella,무릎뼈의 골절
+864,S82.9,1,"Fracture of lower leg, part unspecified",아래다리의 상세불명 부분의 골절
+865,S92.3,1,Fracture of metatarsal bone,중족골의 골절
+866,S92.9,1,"Fracture of foot, unspecified",발의 상세불명 골절
+867,S92.9,1,"Fracture of foot, unspecified",발의 상세불명 골절
+868,T81.3,1,"Disruption of operation wound, NEC",달리 분류되지 않은 수술상처의 파열
+869,T81.3,1,"Disruption of operation wound, NEC",달리 분류되지 않은 수술상처의 파열
+870,T82.5,1,Mechanical complication of other cardiac and vascular devices and implants,기타 심장 및 혈관 장치 및 삽입기구의 기계적 합병증
+871,Z22.8,1,Carrier of other infectious diseases,기타 감염성 질환의 보균자
+872,Z46.8,1,Fitting and adjustment of other specified devices,기타 명시된 장치의 부착 및 조정
+873,Z68.3,1,,
+874,Z85.0,1,Personal history of malignant neoplasm of digestive organs,소화기관의 악성 신생물의 개인력
+875,Z85.0,1,Personal history of malignant neoplasm of digestive organs,소화기관의 악성 신생물의 개인력
+876,Z92.2,1,Personal history of long-term (current) use of other medicaments,기타 약제의 오랜 (현존) 사용의 개인력
+877,Z93.0,1,Tracheostomy status,기관절개상태
+878,Z94.8,1,Other transplanted organ and tissue status,기타 이식된 기관 및 조직 상태
+879,Z98.8,1,Other specified postsurgical states,기타 명시된 수술후 상태
